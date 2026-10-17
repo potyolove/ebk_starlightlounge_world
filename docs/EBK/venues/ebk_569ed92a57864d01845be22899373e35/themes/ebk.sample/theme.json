@@ -1,0 +1,78 @@
+{
+  "schemaVersion": 1,
+  "themeId": "ebk.ops-sample",
+  "displayName": "EBK OPS Sample / Starlight",
+  "author": "Kyukuma3D",
+  "version": "1.0.0",
+  "minimumEbkVersion": "R40",
+  "sourceRepository": "YOUR_OWNER/YOUR_REPOSITORY",
+  "sourceBranch": "main",
+  "manifestPath": "data/ebk_theme_manifest.json",
+  "slots": [
+    {
+      "key": "color.accent",
+      "type": "color",
+      "color": "#D1A866FF"
+    },
+    {
+      "key": "color.panel",
+      "type": "color",
+      "color": "#0A111DFA"
+    },
+    {
+      "key": "ui.opacity",
+      "type": "float",
+      "value": 0.94
+    },
+    {
+      "key": "ui.menu.background",
+      "type": "texture",
+      "url": "https://potyolove.github.io/ebk_starlightlounge_world/EBK/projects/prj_fa59bfe830f3e36a2cf7a8a5704f649e/themes/ebk.sample/menu-background.png"
+    },
+    {
+      "key": "ui.button.background",
+      "type": "texture",
+      "url": "https://potyolove.github.io/ebk_starlightlounge_world/EBK/projects/prj_fa59bfe830f3e36a2cf7a8a5704f649e/themes/ebk.sample/button-background.png"
+    },
+    {
+      "key": "nameplate.background",
+      "type": "texture",
+      "url": "https://potyolove.github.io/ebk_starlightlounge_world/EBK/projects/prj_fa59bfe830f3e36a2cf7a8a5704f649e/themes/ebk.sample/tag-background.png"
+    }
+  ],
+  "armband": {
+    "standard": {
+      "background": "#20252BFF",
+      "frame": "#B6BEC6FF",
+      "text": "#FFFFFFFF",
+      "art": "#FFFFFFFF",
+      "alpha": 1,
+      "glow": 0.1,
+      "scanline": 0.05,
+      "roleColorBlend": 0.5,
+      "panelUrl": "https://potyolove.github.io/ebk_starlightlounge_world/EBK/projects/prj_fa59bfe830f3e36a2cf7a8a5704f649e/themes/ebk.sample/panel.png"
+    },
+    "tactical": {
+      "background": "#101A22FF",
+      "frame": "#5BC2E5FF",
+      "text": "#FFFFFFFF",
+      "art": "#FFFFFFFF",
+      "alpha": 0.95,
+      "glow": 0.25,
+      "scanline": 0.12,
+      "roleColorBlend": 0.55,
+      "panelUrl": "https://potyolove.github.io/ebk_starlightlounge_world/EBK/projects/prj_fa59bfe830f3e36a2cf7a8a5704f649e/themes/ebk.sample/panel.png"
+    },
+    "hologram": {
+      "background": "#0D3542C7",
+      "frame": "#55EFFFFF",
+      "text": "#E7FDFFFF",
+      "art": "#FFFFFFFF",
+      "alpha": 0.78,
+      "glow": 0.65,
+      "scanline": 0.32,
+      "roleColorBlend": 0.6,
+      "panelUrl": "https://potyolove.github.io/ebk_starlightlounge_world/EBK/projects/prj_fa59bfe830f3e36a2cf7a8a5704f649e/themes/ebk.sample/panel.png"
+    }
+  }
+}

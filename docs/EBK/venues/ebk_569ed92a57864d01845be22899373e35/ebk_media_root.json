@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "format": "ebk-media-root-v1",
+  "modules": [
+    {
+      "id": "common",
+      "manifestPath": "data/roster_manifest.json",
+      "format": "ebk-roster-v1"
+    },
+    {
+      "id": "clubcards",
+      "manifestPath": "ebk-clubcards/manifest.json",
+      "videoPath": "ebk-clubcards/cards.mp4",
+      "format": "ebk-clubcards-v2"
+    },
+    {
+      "id": "themes",
+      "manifestPath": "themes/theme_catalog.json",
+      "format": "ebk-theme-catalog-v1"
+    },
+    {
+      "id": "roomMedia",
+      "manifestPath": "ebk-room-media/manifest.json",
+      "format": "ebk-room-media-v1"
+    }
+  ]
+}

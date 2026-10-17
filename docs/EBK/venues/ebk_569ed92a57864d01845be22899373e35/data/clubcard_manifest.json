@@ -1,0 +1,135 @@
+{
+  "schemaVersion": 1,
+  "revision": 2,
+  "title": "EBK OPS 全項目サンプル ClubCard",
+  "sheetLayout": {
+    "columns": 5,
+    "rows": 2,
+    "cardsPerSheet": 10,
+    "assignmentMode": "stableSlots"
+  },
+  "rarityRules": {
+    "mode": "cardNumberLastDigit",
+    "byLastDigit": {
+      "0": "N",
+      "1": "R",
+      "2": "SR",
+      "3": "SSR",
+      "4": "UR",
+      "5": "S"
+    },
+    "unmappedDigits": "requiresOverride",
+    "defaultWeights": {
+      "N": 2000,
+      "R": 1000,
+      "SR": 600,
+      "SSR": 400,
+      "UR": 40,
+      "S": 3
+    },
+    "overrideFlag": "manualRarityWeightOverride"
+  },
+  "cards": [
+    {
+      "cardNumber": "90000",
+      "serial": 90000,
+      "cardId": "ebk-sample-90000",
+      "cardName": "Sample N",
+      "enabled": true,
+      "exchangeEnabled": true,
+      "exchangePriceOverride": 100,
+      "manualRarityWeightOverride": false,
+      "imagePath": "images/clubcards/cards/90000.png",
+      "imageUrl": "https://potyolove.github.io/ebk_starlightlounge_world/EBK/projects/prj_fa59bfe830f3e36a2cf7a8a5704f649e/images/clubcards/cards/90000.png",
+      "videoSlot": 90000,
+      "sheetKey": "ebk-sample",
+      "sheetIndex": 0
+    },
+    {
+      "cardNumber": "90001",
+      "serial": 90001,
+      "cardId": "ebk-sample-90001",
+      "cardName": "Sample R",
+      "enabled": true,
+      "exchangeEnabled": true,
+      "exchangePriceOverride": 200,
+      "manualRarityWeightOverride": false,
+      "imagePath": "images/clubcards/cards/90001.png",
+      "imageUrl": "https://potyolove.github.io/ebk_starlightlounge_world/EBK/projects/prj_fa59bfe830f3e36a2cf7a8a5704f649e/images/clubcards/cards/90001.png",
+      "videoSlot": 90001,
+      "sheetKey": "ebk-sample",
+      "sheetIndex": 1
+    },
+    {
+      "cardNumber": "90002",
+      "serial": 90002,
+      "cardId": "ebk-sample-90002",
+      "cardName": "Sample SR",
+      "enabled": true,
+      "exchangeEnabled": true,
+      "exchangePriceOverride": 300,
+      "manualRarityWeightOverride": false,
+      "imagePath": "images/clubcards/cards/90002.png",
+      "imageUrl": "https://potyolove.github.io/ebk_starlightlounge_world/EBK/projects/prj_fa59bfe830f3e36a2cf7a8a5704f649e/images/clubcards/cards/90002.png",
+      "videoSlot": 90002,
+      "sheetKey": "ebk-sample",
+      "sheetIndex": 2
+    },
+    {
+      "cardNumber": "90003",
+      "serial": 90003,
+      "cardId": "ebk-sample-90003",
+      "cardName": "Sample SSR",
+      "enabled": true,
+      "exchangeEnabled": true,
+      "exchangePriceOverride": 400,
+      "manualRarityWeightOverride": false,
+      "imagePath": "images/clubcards/cards/90003.png",
+      "imageUrl": "https://potyolove.github.io/ebk_starlightlounge_world/EBK/projects/prj_fa59bfe830f3e36a2cf7a8a5704f649e/images/clubcards/cards/90003.png",
+      "videoSlot": 90003,
+      "sheetKey": "ebk-sample",
+      "sheetIndex": 3
+    },
+    {
+      "cardNumber": "90004",
+      "serial": 90004,
+      "cardId": "ebk-sample-90004",
+      "cardName": "Sample UR",
+      "enabled": true,
+      "exchangeEnabled": true,
+      "exchangePriceOverride": 500,
+      "manualRarityWeightOverride": false,
+      "imagePath": "images/clubcards/cards/90004.png",
+      "imageUrl": "https://potyolove.github.io/ebk_starlightlounge_world/EBK/projects/prj_fa59bfe830f3e36a2cf7a8a5704f649e/images/clubcards/cards/90004.png",
+      "videoSlot": 90004,
+      "sheetKey": "ebk-sample",
+      "sheetIndex": 4
+    },
+    {
+      "cardNumber": "90005",
+      "serial": 90005,
+      "cardId": "ebk-sample-90005",
+      "cardName": "Sample S",
+      "enabled": true,
+      "exchangeEnabled": true,
+      "exchangePriceOverride": 5000,
+      "manualRarityWeightOverride": true,
+      "imagePath": "images/clubcards/cards/90005.png",
+      "imageUrl": "https://potyolove.github.io/ebk_starlightlounge_world/EBK/projects/prj_fa59bfe830f3e36a2cf7a8a5704f649e/images/clubcards/cards/90005.png",
+      "videoSlot": 90005,
+      "sheetKey": "ebk-sample",
+      "sheetIndex": 5,
+      "rarityOverride": "S",
+      "weightOverride": 5
+    }
+  ],
+  "videoRoster": {
+    "status": "planned",
+    "videoUrl": "https://potyolove.github.io/ebk_starlightlounge_world/EBK/projects/prj_fa59bfe830f3e36a2cf7a8a5704f649e/media/generated/clubcards.mp4",
+    "frameMapUrl": "https://potyolove.github.io/ebk_starlightlounge_world/EBK/projects/prj_fa59bfe830f3e36a2cf7a8a5704f649e/data/clubcard_frame_map.json"
+  },
+  "commonTextures": {
+    "cardBackPath": "images/clubcards/common/cardback.png",
+    "packagePath": "images/clubcards/common/package.png"
+  }
+}

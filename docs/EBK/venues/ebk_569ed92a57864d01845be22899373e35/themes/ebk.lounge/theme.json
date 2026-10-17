@@ -1,0 +1,214 @@
+{
+  "schemaVersion": 1,
+  "themeId": "ebk.lounge",
+  "displayName": "EBK Starlight Lounge",
+  "author": "EventBasicKit",
+  "version": "0.1.0",
+  "slots": [
+    {
+      "key": "color.accent",
+      "type": "color",
+      "color": "#D1A866FF"
+    },
+    {
+      "key": "color.panel",
+      "type": "color",
+      "color": "#0A111DFA"
+    },
+    {
+      "key": "color.button",
+      "type": "color",
+      "color": "#0B141DFF"
+    },
+    {
+      "key": "color.selected",
+      "type": "color",
+      "color": "#1AD6E6FF"
+    },
+    {
+      "key": "color.disabled",
+      "type": "color",
+      "color": "#292E33D1"
+    },
+    {
+      "key": "color.text.primary",
+      "type": "color",
+      "color": "#F2FAFFFF"
+    },
+    {
+      "key": "color.text.secondary",
+      "type": "color",
+      "color": "#ADD1DBFF"
+    },
+    {
+      "key": "color.success",
+      "type": "color",
+      "color": "#33C77AFF"
+    },
+    {
+      "key": "color.warning",
+      "type": "color",
+      "color": "#F0AB38FF"
+    },
+    {
+      "key": "color.error",
+      "type": "color",
+      "color": "#EB4C57FF"
+    },
+    {
+      "key": "ui.menu.background",
+      "type": "texture",
+      "url": "https://potyolove.github.io/ebk_starlightlounge_world/EBK/projects/prj_fa59bfe830f3e36a2cf7a8a5704f649e/themes/ebk.lounge/club-panel.png"
+    },
+    {
+      "key": "ui.button.normal",
+      "type": "texture",
+      "url": "https://potyolove.github.io/ebk_starlightlounge_world/EBK/projects/prj_fa59bfe830f3e36a2cf7a8a5704f649e/themes/ebk.lounge/club-button.png"
+    },
+    {
+      "key": "ui.button.hover",
+      "type": "texture",
+      "url": "https://potyolove.github.io/ebk_starlightlounge_world/EBK/projects/prj_fa59bfe830f3e36a2cf7a8a5704f649e/themes/ebk.lounge/club-button.png"
+    },
+    {
+      "key": "ui.button.selected",
+      "type": "texture",
+      "url": "https://potyolove.github.io/ebk_starlightlounge_world/EBK/projects/prj_fa59bfe830f3e36a2cf7a8a5704f649e/themes/ebk.lounge/club-button.png"
+    },
+    {
+      "key": "ui.button.disabled",
+      "type": "texture",
+      "url": "https://potyolove.github.io/ebk_starlightlounge_world/EBK/projects/prj_fa59bfe830f3e36a2cf7a8a5704f649e/themes/ebk.lounge/club-button.png"
+    },
+    {
+      "key": "ui.side_rail.background",
+      "type": "texture",
+      "url": "https://potyolove.github.io/ebk_starlightlounge_world/EBK/projects/prj_fa59bfe830f3e36a2cf7a8a5704f649e/themes/ebk.lounge/club-panel.png"
+    },
+    {
+      "key": "ui.launchpad.background",
+      "type": "texture",
+      "url": "https://potyolove.github.io/ebk_starlightlounge_world/EBK/projects/prj_fa59bfe830f3e36a2cf7a8a5704f649e/themes/ebk.lounge/club-panel.png"
+    },
+    {
+      "key": "nameplate.background",
+      "type": "texture",
+      "url": "https://potyolove.github.io/ebk_starlightlounge_world/EBK/projects/prj_fa59bfe830f3e36a2cf7a8a5704f649e/themes/ebk.lounge/club-strip.png"
+    },
+    {
+      "key": "intent.plate.background",
+      "type": "texture",
+      "url": "https://potyolove.github.io/ebk_starlightlounge_world/EBK/projects/prj_fa59bfe830f3e36a2cf7a8a5704f649e/themes/ebk.lounge/club-strip.png"
+    },
+    {
+      "key": "intent.board.background",
+      "type": "texture",
+      "url": "https://potyolove.github.io/ebk_starlightlounge_world/EBK/projects/prj_fa59bfe830f3e36a2cf7a8a5704f649e/themes/ebk.lounge/club-panel.png"
+    },
+    {
+      "key": "visit.board.background",
+      "type": "texture",
+      "url": "https://potyolove.github.io/ebk_starlightlounge_world/EBK/projects/prj_fa59bfe830f3e36a2cf7a8a5704f649e/themes/ebk.lounge/club-panel.png"
+    },
+    {
+      "key": "poster.background",
+      "type": "texture",
+      "url": "https://potyolove.github.io/ebk_starlightlounge_world/EBK/projects/prj_fa59bfe830f3e36a2cf7a8a5704f649e/themes/ebk.lounge/club-panel.png"
+    },
+    {
+      "key": "notice.background",
+      "type": "texture",
+      "url": "https://potyolove.github.io/ebk_starlightlounge_world/EBK/projects/prj_fa59bfe830f3e36a2cf7a8a5704f649e/themes/ebk.lounge/club-panel.png"
+    },
+    {
+      "key": "cuecard.background",
+      "type": "texture",
+      "url": "https://potyolove.github.io/ebk_starlightlounge_world/EBK/projects/prj_fa59bfe830f3e36a2cf7a8a5704f649e/themes/ebk.lounge/club-panel.png"
+    },
+    {
+      "key": "notification.background",
+      "type": "texture",
+      "url": "https://potyolove.github.io/ebk_starlightlounge_world/EBK/projects/prj_fa59bfe830f3e36a2cf7a8a5704f649e/themes/ebk.lounge/club-strip.png"
+    },
+    {
+      "key": "status.badge.background",
+      "type": "texture",
+      "url": "https://potyolove.github.io/ebk_starlightlounge_world/EBK/projects/prj_fa59bfe830f3e36a2cf7a8a5704f649e/themes/ebk.lounge/club-strip.png"
+    },
+    {
+      "key": "board.background",
+      "type": "texture",
+      "url": "https://potyolove.github.io/ebk_starlightlounge_world/EBK/projects/prj_fa59bfe830f3e36a2cf7a8a5704f649e/themes/ebk.lounge/club-panel.png"
+    },
+    {
+      "key": "card.background",
+      "type": "texture",
+      "url": "https://potyolove.github.io/ebk_starlightlounge_world/EBK/projects/prj_fa59bfe830f3e36a2cf7a8a5704f649e/themes/ebk.lounge/club-button.png"
+    },
+    {
+      "key": "dialog.background",
+      "type": "texture",
+      "url": "https://potyolove.github.io/ebk_starlightlounge_world/EBK/projects/prj_fa59bfe830f3e36a2cf7a8a5704f649e/themes/ebk.lounge/club-panel.png"
+    },
+    {
+      "key": "timeline.background",
+      "type": "texture",
+      "url": "https://potyolove.github.io/ebk_starlightlounge_world/EBK/projects/prj_fa59bfe830f3e36a2cf7a8a5704f649e/themes/ebk.lounge/club-panel.png"
+    },
+    {
+      "key": "armband.standard.panel",
+      "type": "texture",
+      "url": "https://potyolove.github.io/ebk_starlightlounge_world/EBK/projects/prj_fa59bfe830f3e36a2cf7a8a5704f649e/themes/ebk.lounge/club-strip.png"
+    },
+    {
+      "key": "armband.tactical.panel",
+      "type": "texture",
+      "url": "https://potyolove.github.io/ebk_starlightlounge_world/EBK/projects/prj_fa59bfe830f3e36a2cf7a8a5704f649e/themes/ebk.lounge/club-strip.png"
+    },
+    {
+      "key": "armband.hologram.panel",
+      "type": "texture",
+      "url": "https://potyolove.github.io/ebk_starlightlounge_world/EBK/projects/prj_fa59bfe830f3e36a2cf7a8a5704f649e/themes/ebk.lounge/club-strip.png"
+    },
+    {
+      "key": "ui.button.background",
+      "type": "texture",
+      "url": "https://potyolove.github.io/ebk_starlightlounge_world/EBK/projects/prj_fa59bfe830f3e36a2cf7a8a5704f649e/themes/ebk.lounge/club-button.png"
+    }
+  ],
+  "armband": {
+    "standard": {
+      "background": "#0A1119FF",
+      "frame": "#A6EDF6FF",
+      "text": "#F2FAFFFF",
+      "art": "#FFFFFFFF",
+      "alpha": 1,
+      "glow": 0,
+      "scanline": 0,
+      "roleColorBlend": 0.55,
+      "panelUrl": "https://potyolove.github.io/ebk_starlightlounge_world/EBK/projects/prj_fa59bfe830f3e36a2cf7a8a5704f649e/themes/ebk.lounge/club-strip.png"
+    },
+    "tactical": {
+      "background": "#070D13FF",
+      "frame": "#1AD6E6FF",
+      "text": "#F2FAFFFF",
+      "art": "#DAF8FBFF",
+      "alpha": 0.96,
+      "glow": 0.14,
+      "scanline": 0.03,
+      "roleColorBlend": 0.48,
+      "panelUrl": "https://potyolove.github.io/ebk_starlightlounge_world/EBK/projects/prj_fa59bfe830f3e36a2cf7a8a5704f649e/themes/ebk.lounge/club-strip.png"
+    },
+    "hologram": {
+      "background": "#0B383FFF",
+      "frame": "#53E0ECFF",
+      "text": "#E3FAFCFF",
+      "art": "#D1F7FAFF",
+      "alpha": 0.78,
+      "glow": 0.48,
+      "scanline": 0.2,
+      "roleColorBlend": 0.6,
+      "panelUrl": "https://potyolove.github.io/ebk_starlightlounge_world/EBK/projects/prj_fa59bfe830f3e36a2cf7a8a5704f649e/themes/ebk.lounge/club-strip.png"
+    }
+  }
+}

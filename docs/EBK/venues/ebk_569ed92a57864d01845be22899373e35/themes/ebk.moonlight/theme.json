@@ -1,0 +1,210 @@
+{
+  "schemaVersion": 1,
+  "themeId": "ebk.moonlight",
+  "displayName": "Moonlight",
+  "author": "ポチョLOVE Create × Kyukuma3D",
+  "version": "1.1.0",
+  "minimumEbkVersion": "R40",
+  "slots": [
+    {
+      "key": "color.accent",
+      "type": "color",
+      "color": "#A36BFFFF"
+    },
+    {
+      "key": "color.panel",
+      "type": "color",
+      "color": "#0E0916FF"
+    },
+    {
+      "key": "color.button",
+      "type": "color",
+      "color": "#191026FF"
+    },
+    {
+      "key": "color.selected",
+      "type": "color",
+      "color": "#A36BFFFF"
+    },
+    {
+      "key": "color.disabled",
+      "type": "color",
+      "color": "#292E33D1"
+    },
+    {
+      "key": "color.text.primary",
+      "type": "color",
+      "color": "#FAF2FFFF"
+    },
+    {
+      "key": "color.text.secondary",
+      "type": "color",
+      "color": "#C9B2E6FF"
+    },
+    {
+      "key": "color.success",
+      "type": "color",
+      "color": "#33C77AFF"
+    },
+    {
+      "key": "color.warning",
+      "type": "color",
+      "color": "#F0AB38FF"
+    },
+    {
+      "key": "color.error",
+      "type": "color",
+      "color": "#EB4C57FF"
+    },
+    {
+      "key": "ui.menu.background",
+      "type": "texture",
+      "url": "https://potyolove.github.io/ebk_starlightlounge_world/EBK/projects/prj_fa59bfe830f3e36a2cf7a8a5704f649e/themes/ebk.moonlight/club-panel.png"
+    },
+    {
+      "key": "ui.button.normal",
+      "type": "texture",
+      "url": "https://potyolove.github.io/ebk_starlightlounge_world/EBK/projects/prj_fa59bfe830f3e36a2cf7a8a5704f649e/themes/ebk.moonlight/club-button.png"
+    },
+    {
+      "key": "ui.button.hover",
+      "type": "texture",
+      "url": "https://potyolove.github.io/ebk_starlightlounge_world/EBK/projects/prj_fa59bfe830f3e36a2cf7a8a5704f649e/themes/ebk.moonlight/club-button.png"
+    },
+    {
+      "key": "ui.button.selected",
+      "type": "texture",
+      "url": "https://potyolove.github.io/ebk_starlightlounge_world/EBK/projects/prj_fa59bfe830f3e36a2cf7a8a5704f649e/themes/ebk.moonlight/club-button.png"
+    },
+    {
+      "key": "ui.button.disabled",
+      "type": "texture",
+      "url": "https://potyolove.github.io/ebk_starlightlounge_world/EBK/projects/prj_fa59bfe830f3e36a2cf7a8a5704f649e/themes/ebk.moonlight/club-button.png"
+    },
+    {
+      "key": "ui.side_rail.background",
+      "type": "texture",
+      "url": "https://potyolove.github.io/ebk_starlightlounge_world/EBK/projects/prj_fa59bfe830f3e36a2cf7a8a5704f649e/themes/ebk.moonlight/club-panel.png"
+    },
+    {
+      "key": "ui.launchpad.background",
+      "type": "texture",
+      "url": "https://potyolove.github.io/ebk_starlightlounge_world/EBK/projects/prj_fa59bfe830f3e36a2cf7a8a5704f649e/themes/ebk.moonlight/club-panel.png"
+    },
+    {
+      "key": "nameplate.background",
+      "type": "texture",
+      "url": "https://potyolove.github.io/ebk_starlightlounge_world/EBK/projects/prj_fa59bfe830f3e36a2cf7a8a5704f649e/themes/ebk.moonlight/club-strip.png"
+    },
+    {
+      "key": "intent.plate.background",
+      "type": "texture",
+      "url": "https://potyolove.github.io/ebk_starlightlounge_world/EBK/projects/prj_fa59bfe830f3e36a2cf7a8a5704f649e/themes/ebk.moonlight/club-strip.png"
+    },
+    {
+      "key": "intent.board.background",
+      "type": "texture",
+      "url": "https://potyolove.github.io/ebk_starlightlounge_world/EBK/projects/prj_fa59bfe830f3e36a2cf7a8a5704f649e/themes/ebk.moonlight/club-panel.png"
+    },
+    {
+      "key": "visit.board.background",
+      "type": "texture",
+      "url": "https://potyolove.github.io/ebk_starlightlounge_world/EBK/projects/prj_fa59bfe830f3e36a2cf7a8a5704f649e/themes/ebk.moonlight/club-panel.png"
+    },
+    {
+      "key": "poster.background",
+      "type": "texture",
+      "url": "https://potyolove.github.io/ebk_starlightlounge_world/EBK/projects/prj_fa59bfe830f3e36a2cf7a8a5704f649e/themes/ebk.moonlight/club-panel.png"
+    },
+    {
+      "key": "notice.background",
+      "type": "texture",
+      "url": "https://potyolove.github.io/ebk_starlightlounge_world/EBK/projects/prj_fa59bfe830f3e36a2cf7a8a5704f649e/themes/ebk.moonlight/club-panel.png"
+    },
+    {
+      "key": "cuecard.background",
+      "type": "texture",
+      "url": "https://potyolove.github.io/ebk_starlightlounge_world/EBK/projects/prj_fa59bfe830f3e36a2cf7a8a5704f649e/themes/ebk.moonlight/club-panel.png"
+    },
+    {
+      "key": "notification.background",
+      "type": "texture",
+      "url": "https://potyolove.github.io/ebk_starlightlounge_world/EBK/projects/prj_fa59bfe830f3e36a2cf7a8a5704f649e/themes/ebk.moonlight/club-strip.png"
+    },
+    {
+      "key": "status.badge.background",
+      "type": "texture",
+      "url": "https://potyolove.github.io/ebk_starlightlounge_world/EBK/projects/prj_fa59bfe830f3e36a2cf7a8a5704f649e/themes/ebk.moonlight/club-strip.png"
+    },
+    {
+      "key": "board.background",
+      "type": "texture",
+      "url": "https://potyolove.github.io/ebk_starlightlounge_world/EBK/projects/prj_fa59bfe830f3e36a2cf7a8a5704f649e/themes/ebk.moonlight/club-panel.png"
+    },
+    {
+      "key": "card.background",
+      "type": "texture",
+      "url": "https://potyolove.github.io/ebk_starlightlounge_world/EBK/projects/prj_fa59bfe830f3e36a2cf7a8a5704f649e/themes/ebk.moonlight/club-button.png"
+    },
+    {
+      "key": "dialog.background",
+      "type": "texture",
+      "url": "https://potyolove.github.io/ebk_starlightlounge_world/EBK/projects/prj_fa59bfe830f3e36a2cf7a8a5704f649e/themes/ebk.moonlight/club-panel.png"
+    },
+    {
+      "key": "timeline.background",
+      "type": "texture",
+      "url": "https://potyolove.github.io/ebk_starlightlounge_world/EBK/projects/prj_fa59bfe830f3e36a2cf7a8a5704f649e/themes/ebk.moonlight/club-panel.png"
+    },
+    {
+      "key": "armband.standard.panel",
+      "type": "texture",
+      "url": "https://potyolove.github.io/ebk_starlightlounge_world/EBK/projects/prj_fa59bfe830f3e36a2cf7a8a5704f649e/themes/ebk.moonlight/club-strip.png"
+    },
+    {
+      "key": "armband.tactical.panel",
+      "type": "texture",
+      "url": "https://potyolove.github.io/ebk_starlightlounge_world/EBK/projects/prj_fa59bfe830f3e36a2cf7a8a5704f649e/themes/ebk.moonlight/club-strip.png"
+    },
+    {
+      "key": "armband.hologram.panel",
+      "type": "texture",
+      "url": "https://potyolove.github.io/ebk_starlightlounge_world/EBK/projects/prj_fa59bfe830f3e36a2cf7a8a5704f649e/themes/ebk.moonlight/club-strip.png"
+    }
+  ],
+  "armband": {
+    "standard": {
+      "background": "#150D21FF",
+      "frame": "#DCC3FFFF",
+      "text": "#FAF2FFFF",
+      "art": "#FFFFFFFF",
+      "alpha": 1,
+      "glow": 0,
+      "scanline": 0,
+      "roleColorBlend": 0.55,
+      "panelUrl": "https://potyolove.github.io/ebk_starlightlounge_world/EBK/projects/prj_fa59bfe830f3e36a2cf7a8a5704f649e/themes/ebk.moonlight/club-strip.png"
+    },
+    "tactical": {
+      "background": "#100A19FF",
+      "frame": "#A36BFFFF",
+      "text": "#FAF2FFFF",
+      "art": "#F0E7FFFF",
+      "alpha": 0.96,
+      "glow": 0.14,
+      "scanline": 0.03,
+      "roleColorBlend": 0.48,
+      "panelUrl": "https://potyolove.github.io/ebk_starlightlounge_world/EBK/projects/prj_fa59bfe830f3e36a2cf7a8a5704f649e/themes/ebk.moonlight/club-strip.png"
+    },
+    "hologram": {
+      "background": "#2F1F49FF",
+      "frame": "#BA90FFFF",
+      "text": "#F4EDFFFF",
+      "art": "#EDE1FFFF",
+      "alpha": 0.78,
+      "glow": 0.72,
+      "scanline": 0.38,
+      "roleColorBlend": 0.6,
+      "panelUrl": "https://potyolove.github.io/ebk_starlightlounge_world/EBK/projects/prj_fa59bfe830f3e36a2cf7a8a5704f649e/themes/ebk.moonlight/club-strip.png"
+    }
+  }
+}

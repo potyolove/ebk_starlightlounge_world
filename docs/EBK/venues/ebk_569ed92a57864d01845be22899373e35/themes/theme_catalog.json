@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "format": "ebk-theme-catalog-v1",
+  "themes": [
+    {
+      "themeId": "ebk.lounge",
+      "displayName": "EBK Starlight Lounge",
+      "manifestPath": "ebk.lounge/theme.json",
+      "format": "ebk-theme-v1"
+    },
+    {
+      "themeId": "ebk.night",
+      "displayName": "Night",
+      "manifestPath": "ebk.night/theme.json",
+      "format": "ebk-theme-v1"
+    },
+    {
+      "themeId": "ebk.moonlight",
+      "displayName": "Moonlight",
+      "manifestPath": "ebk.moonlight/theme.json",
+      "format": "ebk-theme-v1"
+    },
+    {
+      "themeId": "ebk.simple",
+      "displayName": "Simple",
+      "manifestPath": "ebk.simple/theme.json",
+      "format": "ebk-theme-v1"
+    },
+    {
+      "themeId": "ebk.ops-sample",
+      "displayName": "EBK OPS Sample / Starlight",
+      "manifestPath": "ebk.sample/theme.json",
+      "format": "ebk-theme-v1"
+    }
+  ]
+}

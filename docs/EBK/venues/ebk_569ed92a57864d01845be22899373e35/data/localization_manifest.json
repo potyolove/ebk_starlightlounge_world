@@ -1,0 +1,34 @@
+{
+  "protocol": "EventBasicKit.LocalizationCatalog",
+  "schemaVersion": 2,
+  "revision": "ops-sample-v1",
+  "entries": [
+    {
+      "key": "catalog.title",
+      "category": "Catalog",
+      "enabled": true,
+      "ja": "サンプルメニュー",
+      "en": "Sample Menu",
+      "zh": "示例菜单",
+      "ko": "샘플 메뉴"
+    },
+    {
+      "key": "room.sample.name",
+      "category": "Room",
+      "enabled": true,
+      "ja": "サンプルラウンジ",
+      "en": "Sample Lounge",
+      "zh": "示例休息室",
+      "ko": "샘플 라운지"
+    },
+    {
+      "key": "notice.sample",
+      "category": "Notice",
+      "enabled": true,
+      "ja": "サンプル注意事項",
+      "en": "Sample Notice",
+      "zh": "示例注意事项",
+      "ko": "샘플 안내"
+    }
+  ]
+}

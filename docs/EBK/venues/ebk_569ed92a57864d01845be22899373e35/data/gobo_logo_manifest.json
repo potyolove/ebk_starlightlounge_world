@@ -1,0 +1,32 @@
+{
+  "protocol": "EventBasicKit.GoboLogoManifest",
+  "schemaVersion": 1,
+  "projectors": [
+    {
+      "projectorId": "sample-dj-gobo",
+      "enabled": true,
+      "logoPath": "images/gobo/sample-dj-gobo.png",
+      "manageTransform": true,
+      "positionX": 0,
+      "positionY": 0.02,
+      "positionZ": -3.6,
+      "yaw": 15,
+      "sizeX": 3.2,
+      "sizeY": 3.2,
+      "rotationSpeed": 12,
+      "clockwise": true,
+      "floorOffset": 0.012,
+      "colorR": 0.55,
+      "colorG": 0.82,
+      "colorB": 1,
+      "colorA": 0.9,
+      "brightness": 1.8,
+      "realLightEnabled": true,
+      "lightIntensity": 1.2,
+      "lightRange": 8,
+      "spotAngle": 48,
+      "lightHeight": 3.2,
+      "useEventIcon": true
+    }
+  ]
+}

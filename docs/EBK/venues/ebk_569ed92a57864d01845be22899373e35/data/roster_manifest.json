@@ -1,0 +1,526 @@
+{
+  "catalogGuide": {
+    "catalogDefaultImage": "",
+    "catalogEnableRemoteImages": true,
+    "catalogImageRequestIntervalSeconds": 5.2,
+    "catalogManagementMaximumLevel": 4,
+    "catalogManagementMinimumLevel": 2,
+    "catalogMaximumLevel": 4,
+    "catalogMinimumLevel": 0,
+    "catalogRuntimeDirectImageChoiceLabels": [],
+    "catalogRuntimeDirectImageChoices": [],
+    "catalogRuntimeManagement": true,
+    "catalogTitle": "Starlight Menu",
+    "categoryIds": [
+      "drink",
+      "food",
+      "other"
+    ],
+    "categoryLabels": [
+      "ドリンク",
+      "フード",
+      "その他"
+    ],
+    "games": [
+      {
+        "enabled": true,
+        "id": "first_visit",
+        "maximumLevel": 4,
+        "minimumLevel": 0,
+        "title": "はじめての楽しみ方"
+      },
+      {
+        "enabled": true,
+        "id": "photo_guide",
+        "maximumLevel": 4,
+        "minimumLevel": 0,
+        "title": "写真撮影を楽しもう"
+      }
+    ],
+    "guidePages": [
+      {
+        "body": "1. プロフィールを確認・設定する\n2. 接客希望や過ごし方を選ぶ\n3. 気になる席やスタッフを選ぶ\n4. ゆっくり会話や雰囲気を楽しむ\n5. 困った時はスタッフを呼ぶ\n\n無理に会話を続けなくても大丈夫。自分のペースでゆったりお楽しみください。",
+        "directImage": "",
+        "enabled": true,
+        "gameIndex": 0,
+        "imageUrl": "https://potyolove.github.io/ebk_starlightlounge_world/EBK/projects/prj_fa59bfe830f3e36a2cf7a8a5704f649e/images/guides/welcome.png",
+        "title": "はじめての楽しみ方"
+      },
+      {
+        "body": "1. 撮影許可設定を確認する\n2. 撮影場所を決める\n3. 名札表示や撮影表示を調整する\n4. Camera Jackやロゴ表示を使う\n5. 集合写真や記念撮影を行う\n\n撮影前に周囲の方の許可を確認すると、より安心して楽しめます。",
+        "directImage": "",
+        "enabled": true,
+        "gameIndex": 1,
+        "imageUrl": "https://potyolove.github.io/ebk_starlightlounge_world/EBK/projects/prj_fa59bfe830f3e36a2cf7a8a5704f649e/images/guides/photo.png",
+        "title": "写真撮影を楽しもう"
+      }
+    ],
+    "guideTitle": "EBK Lounge Guide",
+    "inventoryEnabled": false,
+    "inventoryLogCapacity": 16,
+    "products": [
+      {
+        "categoryIndex": 0,
+        "description": "すっきり爽やかな柑橘風味のソーダ。ほんのり光るような透明感があり、会話のはじまりにぴったりな一杯です。",
+        "directImage": "",
+        "enabled": true,
+        "id": "luminous_soda",
+        "imageUrl": "https://potyolove.github.io/ebk_starlightlounge_world/EBK/projects/prj_fa59bfe830f3e36a2cf7a8a5704f649e/images/products/luminous_soda.png",
+        "initialStock": 0,
+        "lowStockThreshold": 0,
+        "maximumLevel": 4,
+        "minimumLevel": 0,
+        "name": "ルミナスソーダ",
+        "price": "500pt",
+        "soldOut": false,
+        "trackStock": false
+      },
+      {
+        "categoryIndex": 0,
+        "description": "まろやかな甘さのカフェラテ。夜のひとときに寄り添う、ほっと落ち着く味わいです。",
+        "directImage": "",
+        "enabled": true,
+        "id": "midnight_latte",
+        "imageUrl": "https://potyolove.github.io/ebk_starlightlounge_world/EBK/projects/prj_fa59bfe830f3e36a2cf7a8a5704f649e/images/products/midnight_latte.png",
+        "initialStock": 0,
+        "lowStockThreshold": 0,
+        "maximumLevel": 4,
+        "minimumLevel": 0,
+        "name": "ミッドナイトラテ",
+        "price": "650pt",
+        "soldOut": false,
+        "trackStock": false
+      },
+      {
+        "categoryIndex": 1,
+        "description": "フルーツとクリームを重ねた華やかなパフェ。見た目もかわいく、記念撮影にもおすすめです。",
+        "directImage": "",
+        "enabled": true,
+        "id": "starlight_parfait",
+        "imageUrl": "https://potyolove.github.io/ebk_starlightlounge_world/EBK/projects/prj_fa59bfe830f3e36a2cf7a8a5704f649e/images/products/starlight_parfait.png",
+        "initialStock": 0,
+        "lowStockThreshold": 0,
+        "maximumLevel": 4,
+        "minimumLevel": 0,
+        "name": "スターライトパフェ",
+        "price": "900pt",
+        "soldOut": false,
+        "trackStock": false
+      },
+      {
+        "categoryIndex": 1,
+        "description": "彩り野菜とやわらかな具材を挟んだサンド。会話の合間にも楽しみやすい軽食です。",
+        "directImage": "",
+        "enabled": true,
+        "id": "night_terrace_sand",
+        "imageUrl": "https://potyolove.github.io/ebk_starlightlounge_world/EBK/projects/prj_fa59bfe830f3e36a2cf7a8a5704f649e/images/products/night_terrace_sand.png",
+        "initialStock": 0,
+        "lowStockThreshold": 0,
+        "maximumLevel": 4,
+        "minimumLevel": 0,
+        "name": "ナイトテラスサンド",
+        "price": "780pt",
+        "soldOut": false,
+        "trackStock": false
+      },
+      {
+        "categoryIndex": 2,
+        "description": "会話のきっかけに使えるテーマカード。何を話そうか迷った時に自然な会話の入口を作れます。",
+        "directImage": "",
+        "enabled": true,
+        "id": "talk_theme_cards",
+        "imageUrl": "https://potyolove.github.io/ebk_starlightlounge_world/EBK/projects/prj_fa59bfe830f3e36a2cf7a8a5704f649e/images/products/talk_theme_cards.png",
+        "initialStock": 0,
+        "lowStockThreshold": 0,
+        "maximumLevel": 4,
+        "minimumLevel": 0,
+        "name": "トークテーマカード",
+        "price": "300pt",
+        "soldOut": false,
+        "trackStock": false
+      },
+      {
+        "categoryIndex": 2,
+        "description": "記念撮影をもっと楽しくするフォト演出用チケット。集合写真や思い出作りにどうぞ。",
+        "directImage": "",
+        "enabled": true,
+        "id": "kirameki_photo_ticket",
+        "imageUrl": "https://potyolove.github.io/ebk_starlightlounge_world/EBK/projects/prj_fa59bfe830f3e36a2cf7a8a5704f649e/images/products/kirameki_photo_ticket.png",
+        "initialStock": 0,
+        "lowStockThreshold": 0,
+        "maximumLevel": 4,
+        "minimumLevel": 0,
+        "name": "きらめきフォトチケット",
+        "price": "400pt",
+        "soldOut": false,
+        "trackStock": false
+      }
+    ]
+  },
+  "eventSchedule": {
+    "exceptions": [
+      {
+        "countAsVisit": true,
+        "countStaffWork": true,
+        "date": "2026-10-30",
+        "duration": 90,
+        "enabled": true,
+        "exportToSheets": true,
+        "kind": "Regular",
+        "sourceId": "ser_4ceb88a3ce8d0c8e23b4e5d81d2bcb58",
+        "start": "21:00",
+        "title": "特別サンプル営業",
+        "type": "臨時営業"
+      },
+      {
+        "countAsVisit": true,
+        "countStaffWork": true,
+        "date": "2026-11-06",
+        "duration": 100,
+        "enabled": true,
+        "exportToSheets": true,
+        "kind": "Regular",
+        "sourceId": "ser_4ceb88a3ce8d0c8e23b4e5d81d2bcb58",
+        "start": "20:00",
+        "title": "休業サンプル",
+        "type": "休業"
+      },
+      {
+        "countAsVisit": true,
+        "countStaffWork": true,
+        "date": "2026-10-31",
+        "duration": 90,
+        "enabled": true,
+        "exportToSheets": true,
+        "kind": "Regular",
+        "sourceId": "evt_b4f8ad1e442c0a4946eced83c55dc5bb",
+        "start": "22:00",
+        "title": "単発サンプル営業",
+        "type": "臨時営業"
+      }
+    ],
+    "projectId": "prj_fa59bfe830f3e36a2cf7a8a5704f649e",
+    "rotationMinutes": 15,
+    "rules": [
+      {
+        "countAsVisit": true,
+        "countStaffWork": true,
+        "duration": 90,
+        "enabled": true,
+        "exportToSheets": true,
+        "kind": "Regular",
+        "nth": 0,
+        "sourceId": "ser_4ceb88a3ce8d0c8e23b4e5d81d2bcb58",
+        "start": "20:00",
+        "title": "毎週サンプル営業",
+        "untilDate": "2026-11-01",
+        "weekday": 5
+      },
+      {
+        "countAsVisit": true,
+        "countStaffWork": true,
+        "duration": 100,
+        "enabled": true,
+        "exportToSheets": true,
+        "fromDate": "2026-11-01",
+        "kind": "Regular",
+        "nth": 0,
+        "sourceId": "ser_4ceb88a3ce8d0c8e23b4e5d81d2bcb58",
+        "start": "20:30",
+        "title": "冬時間サンプル営業",
+        "weekday": 5
+      },
+      {
+        "countAsVisit": true,
+        "countStaffWork": true,
+        "duration": 60,
+        "enabled": true,
+        "exportToSheets": true,
+        "kind": "Regular",
+        "nth": 1,
+        "sourceId": "ser_820a380e2aff209815e48a21b5726a85",
+        "start": "22:00",
+        "title": "毎月サンプル撮影会",
+        "weekday": 0
+      }
+    ],
+    "schemaVersion": 1,
+    "source": "ebk-project-calendar",
+    "utcOffsetHours": 9
+  },
+  "imageSchemaVersion": 1,
+  "members": [
+    {
+      "accessLevel": 4,
+      "biography": "イベント全体の進行と空間づくりを担当しています。困った時はいつでも声をかけてください。",
+      "category": "Owner",
+      "displayName": "Astra",
+      "enabled": true,
+      "hasPermission": true,
+      "iconUrl": "https://potyolove.github.io/ebk_starlightlounge_world/EBK/projects/prj_fa59bfe830f3e36a2cf7a8a5704f649e/images/icons/owner/slot0.png",
+      "name": "Astra",
+      "playerName": "Astra",
+      "portraitCrop": {
+        "offset": {
+          "x": 0.25,
+          "y": 0.5
+        },
+        "tiling": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      },
+      "portraitCustomFraming": false,
+      "portraitUrl": "https://potyolove.github.io/ebk_starlightlounge_world/EBK/projects/prj_fa59bfe830f3e36a2cf7a8a5704f649e/images/portraits/owner/slot0.png",
+      "profileImageUrl": "https://potyolove.github.io/ebk_starlightlounge_world/EBK/projects/prj_fa59bfe830f3e36a2cf7a8a5704f649e/images/portraits/owner/slot0.png",
+      "roleGroup": "operations",
+      "roleType": "owner",
+      "roleplayName": "Astra",
+      "showArmband": true,
+      "showName": true,
+      "showPortrait": true,
+      "slot": 0,
+      "spawnKey": "staff_room",
+      "standeeUrl": "https://potyolove.github.io/ebk_starlightlounge_world/EBK/projects/prj_fa59bfe830f3e36a2cf7a8a5704f649e/images/standees/owner/slot0.png",
+      "tags": [
+        "EBK",
+        "Starlight Lounge"
+      ],
+      "vrcName": "Astra"
+    },
+    {
+      "accessLevel": 4,
+      "biography": "受付・進行・トラブル対応を担当。初めての方にも分かりやすい案内を心がけています。",
+      "category": "Operator",
+      "displayName": "Noa",
+      "enabled": true,
+      "hasPermission": true,
+      "iconUrl": "https://potyolove.github.io/ebk_starlightlounge_world/EBK/projects/prj_fa59bfe830f3e36a2cf7a8a5704f649e/images/icons/operator/slot0.png",
+      "name": "Noa",
+      "playerName": "Noa",
+      "portraitCrop": {
+        "offset": {
+          "x": 0.25,
+          "y": 0.5
+        },
+        "tiling": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      },
+      "portraitCustomFraming": false,
+      "portraitUrl": "https://potyolove.github.io/ebk_starlightlounge_world/EBK/projects/prj_fa59bfe830f3e36a2cf7a8a5704f649e/images/portraits/operator/slot0.png",
+      "profileImageUrl": "https://potyolove.github.io/ebk_starlightlounge_world/EBK/projects/prj_fa59bfe830f3e36a2cf7a8a5704f649e/images/portraits/operator/slot0.png",
+      "roleGroup": "operations",
+      "roleType": "operator",
+      "roleplayName": "Noa",
+      "showArmband": true,
+      "showName": true,
+      "showPortrait": true,
+      "slot": 0,
+      "spawnKey": "staff_room",
+      "standeeUrl": "https://potyolove.github.io/ebk_starlightlounge_world/EBK/projects/prj_fa59bfe830f3e36a2cf7a8a5704f649e/images/standees/operator/slot0.png",
+      "tags": [
+        "EBK",
+        "Starlight Lounge"
+      ],
+      "vrcName": "Noa"
+    },
+    {
+      "accessLevel": 3,
+      "biography": "ラウンジのご案内と注文サポート担当です。ゆっくり過ごしたい方も歓迎しています。",
+      "category": "Staff",
+      "displayName": "Mio",
+      "enabled": true,
+      "hasPermission": true,
+      "iconUrl": "https://potyolove.github.io/ebk_starlightlounge_world/EBK/projects/prj_fa59bfe830f3e36a2cf7a8a5704f649e/images/icons/staff/slot0.png",
+      "name": "Mio",
+      "playerName": "Mio",
+      "portraitCrop": {
+        "offset": {
+          "x": 0.25,
+          "y": 0.5
+        },
+        "tiling": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      },
+      "portraitCustomFraming": false,
+      "portraitUrl": "https://potyolove.github.io/ebk_starlightlounge_world/EBK/projects/prj_fa59bfe830f3e36a2cf7a8a5704f649e/images/portraits/staff/slot0.png",
+      "profileImageUrl": "https://potyolove.github.io/ebk_starlightlounge_world/EBK/projects/prj_fa59bfe830f3e36a2cf7a8a5704f649e/images/portraits/staff/slot0.png",
+      "roleGroup": "staff",
+      "roleType": "staff",
+      "roleplayName": "Mio",
+      "showArmband": true,
+      "showName": true,
+      "showPortrait": true,
+      "slot": 0,
+      "spawnKey": "staff_room",
+      "standeeUrl": "https://potyolove.github.io/ebk_starlightlounge_world/EBK/projects/prj_fa59bfe830f3e36a2cf7a8a5704f649e/images/standees/staff/slot0.png",
+      "tags": [
+        "EBK",
+        "Starlight Lounge"
+      ],
+      "vrcName": "Mio"
+    },
+    {
+      "accessLevel": 2,
+      "biography": "会話のきっかけ作りと接客サポート担当。沈黙も含めて心地よい時間を大切にしています。",
+      "category": "CastLeader",
+      "displayName": "Ren",
+      "enabled": true,
+      "hasPermission": true,
+      "iconUrl": "https://potyolove.github.io/ebk_starlightlounge_world/EBK/projects/prj_fa59bfe830f3e36a2cf7a8a5704f649e/images/icons/castleader/slot0.png",
+      "name": "Ren",
+      "playerName": "Ren",
+      "portraitCrop": {
+        "offset": {
+          "x": 0.25,
+          "y": 0.5
+        },
+        "tiling": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      },
+      "portraitCustomFraming": false,
+      "portraitUrl": "https://potyolove.github.io/ebk_starlightlounge_world/EBK/projects/prj_fa59bfe830f3e36a2cf7a8a5704f649e/images/portraits/castleader/slot0.png",
+      "profileImageUrl": "https://potyolove.github.io/ebk_starlightlounge_world/EBK/projects/prj_fa59bfe830f3e36a2cf7a8a5704f649e/images/portraits/castleader/slot0.png",
+      "roleGroup": "cast",
+      "roleType": "castLeader",
+      "roleplayName": "Ren",
+      "showArmband": true,
+      "showName": true,
+      "showPortrait": true,
+      "slot": 0,
+      "spawnKey": "cast",
+      "standeeUrl": "https://potyolove.github.io/ebk_starlightlounge_world/EBK/projects/prj_fa59bfe830f3e36a2cf7a8a5704f649e/images/standees/castleader/slot0.png",
+      "tags": [
+        "EBK",
+        "Starlight Lounge"
+      ],
+      "vrcName": "Ren"
+    },
+    {
+      "accessLevel": 2,
+      "biography": "写真や雑談を楽しみたい方向けの接客担当です。撮影前の確認もお気軽にどうぞ。",
+      "category": "UpperCast",
+      "displayName": "Ciel",
+      "enabled": true,
+      "hasPermission": true,
+      "iconUrl": "https://potyolove.github.io/ebk_starlightlounge_world/EBK/projects/prj_fa59bfe830f3e36a2cf7a8a5704f649e/images/icons/uppercast/slot0.png",
+      "name": "Ciel",
+      "playerName": "Ciel",
+      "portraitCrop": {
+        "offset": {
+          "x": 0.25,
+          "y": 0.5
+        },
+        "tiling": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      },
+      "portraitCustomFraming": false,
+      "portraitUrl": "https://potyolove.github.io/ebk_starlightlounge_world/EBK/projects/prj_fa59bfe830f3e36a2cf7a8a5704f649e/images/portraits/uppercast/slot0.png",
+      "profileImageUrl": "https://potyolove.github.io/ebk_starlightlounge_world/EBK/projects/prj_fa59bfe830f3e36a2cf7a8a5704f649e/images/portraits/uppercast/slot0.png",
+      "roleGroup": "cast",
+      "roleType": "upperCast",
+      "roleplayName": "Ciel",
+      "showArmband": true,
+      "showName": true,
+      "showPortrait": true,
+      "slot": 0,
+      "spawnKey": "cast",
+      "standeeUrl": "https://potyolove.github.io/ebk_starlightlounge_world/EBK/projects/prj_fa59bfe830f3e36a2cf7a8a5704f649e/images/standees/uppercast/slot0.png",
+      "tags": [
+        "EBK",
+        "Starlight Lounge"
+      ],
+      "vrcName": "Ciel"
+    }
+  ],
+  "posterTextEnabled": true,
+  "posters": [
+    {
+      "category": "Main",
+      "enabled": true,
+      "imageUrl": "https://potyolove.github.io/ebk_starlightlounge_world/EBK/projects/prj_fa59bfe830f3e36a2cf7a8a5704f649e/images/posters/main/slot0.png",
+      "maximumLevel": 4,
+      "minimumLevel": 0,
+      "slot": 0,
+      "text": "イベント紹介文をここに入力します。",
+      "title": "相互イベント A"
+    },
+    {
+      "category": "Main",
+      "enabled": true,
+      "imageUrl": "https://potyolove.github.io/ebk_starlightlounge_world/EBK/projects/prj_fa59bfe830f3e36a2cf7a8a5704f649e/images/posters/main/slot1.png",
+      "maximumLevel": 4,
+      "minimumLevel": 0,
+      "slot": 1,
+      "text": "Project内画像または外部画像URLを設定できます。",
+      "title": "相互イベント B"
+    },
+    {
+      "category": "Notice",
+      "enabled": true,
+      "imageUrl": "https://potyolove.github.io/ebk_starlightlounge_world/EBK/projects/prj_fa59bfe830f3e36a2cf7a8a5704f649e/images/posters/notice/slot0.png",
+      "maximumLevel": 4,
+      "minimumLevel": 0,
+      "slot": 0,
+      "text": "イベントのルール・撮影・接客に関する注意事項を入力してください。",
+      "title": "注意事項"
+    },
+    {
+      "category": "Notice",
+      "enabled": true,
+      "imageUrl": "https://potyolove.github.io/ebk_starlightlounge_world/EBK/projects/prj_fa59bfe830f3e36a2cf7a8a5704f649e/images/posters/notice/slot1.png",
+      "maximumLevel": 4,
+      "minimumLevel": 0,
+      "slot": 1,
+      "text": "撮影許可やSNS掲載ルールなどを案内できます。",
+      "title": "撮影について"
+    },
+    {
+      "category": "Kanpe",
+      "enabled": true,
+      "imageUrl": "https://potyolove.github.io/ebk_starlightlounge_world/EBK/projects/prj_fa59bfe830f3e36a2cf7a8a5704f649e/images/posters/kanpe/slot0.png",
+      "maximumLevel": 4,
+      "minimumLevel": 2,
+      "slot": 0,
+      "text": "こんばんは。ご来店ありがとうございます。まずイベントの流れをご案内します。",
+      "title": "初来店のご案内"
+    },
+    {
+      "category": "Kanpe",
+      "enabled": true,
+      "imageUrl": "https://potyolove.github.io/ebk_starlightlounge_world/EBK/projects/prj_fa59bfe830f3e36a2cf7a8a5704f649e/images/posters/kanpe/slot1.png",
+      "maximumLevel": 4,
+      "minimumLevel": 2,
+      "slot": 1,
+      "text": "まもなくローテーションのお時間です。次のお席へご案内します。",
+      "title": "移動案内"
+    },
+    {
+      "category": "Kanpe",
+      "enabled": true,
+      "imageUrl": "https://potyolove.github.io/ebk_starlightlounge_world/EBK/projects/prj_fa59bfe830f3e36a2cf7a8a5704f649e/images/posters/kanpe/slot2.png",
+      "maximumLevel": 4,
+      "minimumLevel": 2,
+      "slot": 2,
+      "text": "集合写真を撮影します。案内に沿ってお集まりください。",
+      "title": "集合写真"
+    }
+  ],
+  "schemaVersion": 2,
+  "videoRoster": {
+    "enabled": false,
+    "fps": 30,
+    "frameMapUrl": "https://potyolove.github.io/ebk_starlightlounge_world/EBK/projects/prj_fa59bfe830f3e36a2cf7a8a5704f649e/data/roster_frame_map.json",
+    "framesPerPortrait": 3,
+    "sampleFrame": 1,
+    "videoUrl": "https://potyolove.github.io/ebk_starlightlounge_world/EBK/projects/prj_fa59bfe830f3e36a2cf7a8a5704f649e/media/generated/roster.mp4"
+  }
+}

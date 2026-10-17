@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "format": "ebk-clubcard-frame-map-v1",
+  "entries": [
+    {
+      "cardNumber": "90000",
+      "sheetKey": "ebk-sample",
+      "sheetIndex": 0,
+      "frame": 1,
+      "imageUrl": "https://potyolove.github.io/ebk_starlightlounge_world/EBK/projects/prj_fa59bfe830f3e36a2cf7a8a5704f649e/images/clubcards/cards/90000.png"
+    },
+    {
+      "cardNumber": "90001",
+      "sheetKey": "ebk-sample",
+      "sheetIndex": 1,
+      "frame": 2,
+      "imageUrl": "https://potyolove.github.io/ebk_starlightlounge_world/EBK/projects/prj_fa59bfe830f3e36a2cf7a8a5704f649e/images/clubcards/cards/90001.png"
+    },
+    {
+      "cardNumber": "90002",
+      "sheetKey": "ebk-sample",
+      "sheetIndex": 2,
+      "frame": 3,
+      "imageUrl": "https://potyolove.github.io/ebk_starlightlounge_world/EBK/projects/prj_fa59bfe830f3e36a2cf7a8a5704f649e/images/clubcards/cards/90002.png"
+    },
+    {
+      "cardNumber": "90003",
+      "sheetKey": "ebk-sample",
+      "sheetIndex": 3,
+      "frame": 4,
+      "imageUrl": "https://potyolove.github.io/ebk_starlightlounge_world/EBK/projects/prj_fa59bfe830f3e36a2cf7a8a5704f649e/images/clubcards/cards/90003.png"
+    },
+    {
+      "cardNumber": "90004",
+      "sheetKey": "ebk-sample",
+      "sheetIndex": 4,
+      "frame": 5,
+      "imageUrl": "https://potyolove.github.io/ebk_starlightlounge_world/EBK/projects/prj_fa59bfe830f3e36a2cf7a8a5704f649e/images/clubcards/cards/90004.png"
+    },
+    {
+      "cardNumber": "90005",
+      "sheetKey": "ebk-sample",
+      "sheetIndex": 5,
+      "frame": 6,
+      "imageUrl": "https://potyolove.github.io/ebk_starlightlounge_world/EBK/projects/prj_fa59bfe830f3e36a2cf7a8a5704f649e/images/clubcards/cards/90005.png"
+    }
+  ]
+}

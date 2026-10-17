@@ -1,0 +1,211 @@
+{
+  "schemaVersion": 1,
+  "revision": 1,
+  "products": [
+    {
+      "sku": "luminous_soda",
+      "productId": "luminous_soda",
+      "name": "ルミナスソーダ",
+      "displayName": "ルミナスソーダ",
+      "description": "すっきり爽やかな柑橘風味のソーダ。ほんのり光るような透明感があり、会話のはじまりにぴったりな一杯です。",
+      "category": "drink",
+      "enabled": true,
+      "price": 500,
+      "priceLabel": "500pt",
+      "soldOut": false,
+      "minimumLevel": 0,
+      "maximumLevel": 4,
+      "trackStock": false,
+      "stock": 0,
+      "capacity": 0,
+      "quantity": 1,
+      "sortOrder": 0,
+      "imageUrl": "https://potyolove.github.io/ebk_starlightlounge_world/EBK/projects/prj_fa59bfe830f3e36a2cf7a8a5704f649e/images/products/luminous_soda.png",
+      "iconUrl": "https://potyolove.github.io/ebk_starlightlounge_world/EBK/projects/prj_fa59bfe830f3e36a2cf7a8a5704f649e/images/products/luminous_soda.png"
+    },
+    {
+      "sku": "midnight_latte",
+      "productId": "midnight_latte",
+      "name": "ミッドナイトラテ",
+      "displayName": "ミッドナイトラテ",
+      "description": "まろやかな甘さのカフェラテ。夜のひとときに寄り添う、ほっと落ち着く味わいです。",
+      "category": "drink",
+      "enabled": true,
+      "price": 650,
+      "priceLabel": "650pt",
+      "soldOut": false,
+      "minimumLevel": 0,
+      "maximumLevel": 4,
+      "trackStock": false,
+      "stock": 0,
+      "capacity": 0,
+      "quantity": 1,
+      "sortOrder": 1,
+      "imageUrl": "https://potyolove.github.io/ebk_starlightlounge_world/EBK/projects/prj_fa59bfe830f3e36a2cf7a8a5704f649e/images/products/midnight_latte.png",
+      "iconUrl": "https://potyolove.github.io/ebk_starlightlounge_world/EBK/projects/prj_fa59bfe830f3e36a2cf7a8a5704f649e/images/products/midnight_latte.png"
+    },
+    {
+      "sku": "starlight_parfait",
+      "productId": "starlight_parfait",
+      "name": "スターライトパフェ",
+      "displayName": "スターライトパフェ",
+      "description": "フルーツとクリームを重ねた華やかなパフェ。見た目もかわいく、記念撮影にもおすすめです。",
+      "category": "food",
+      "enabled": true,
+      "price": 900,
+      "priceLabel": "900pt",
+      "soldOut": false,
+      "minimumLevel": 0,
+      "maximumLevel": 4,
+      "trackStock": false,
+      "stock": 0,
+      "capacity": 0,
+      "quantity": 1,
+      "sortOrder": 2,
+      "imageUrl": "https://potyolove.github.io/ebk_starlightlounge_world/EBK/projects/prj_fa59bfe830f3e36a2cf7a8a5704f649e/images/products/starlight_parfait.png",
+      "iconUrl": "https://potyolove.github.io/ebk_starlightlounge_world/EBK/projects/prj_fa59bfe830f3e36a2cf7a8a5704f649e/images/products/starlight_parfait.png"
+    },
+    {
+      "sku": "night_terrace_sand",
+      "productId": "night_terrace_sand",
+      "name": "ナイトテラスサンド",
+      "displayName": "ナイトテラスサンド",
+      "description": "彩り野菜とやわらかな具材を挟んだサンド。会話の合間にも楽しみやすい軽食です。",
+      "category": "food",
+      "enabled": true,
+      "price": 780,
+      "priceLabel": "780pt",
+      "soldOut": false,
+      "minimumLevel": 0,
+      "maximumLevel": 4,
+      "trackStock": false,
+      "stock": 0,
+      "capacity": 0,
+      "quantity": 1,
+      "sortOrder": 3,
+      "imageUrl": "https://potyolove.github.io/ebk_starlightlounge_world/EBK/projects/prj_fa59bfe830f3e36a2cf7a8a5704f649e/images/products/night_terrace_sand.png",
+      "iconUrl": "https://potyolove.github.io/ebk_starlightlounge_world/EBK/projects/prj_fa59bfe830f3e36a2cf7a8a5704f649e/images/products/night_terrace_sand.png"
+    },
+    {
+      "sku": "talk_theme_cards",
+      "productId": "talk_theme_cards",
+      "name": "トークテーマカード",
+      "displayName": "トークテーマカード",
+      "description": "会話のきっかけに使えるテーマカード。何を話そうか迷った時に自然な会話の入口を作れます。",
+      "category": "other",
+      "enabled": true,
+      "price": 300,
+      "priceLabel": "300pt",
+      "soldOut": false,
+      "minimumLevel": 0,
+      "maximumLevel": 4,
+      "trackStock": false,
+      "stock": 0,
+      "capacity": 0,
+      "quantity": 1,
+      "sortOrder": 4,
+      "imageUrl": "https://potyolove.github.io/ebk_starlightlounge_world/EBK/projects/prj_fa59bfe830f3e36a2cf7a8a5704f649e/images/products/talk_theme_cards.png",
+      "iconUrl": "https://potyolove.github.io/ebk_starlightlounge_world/EBK/projects/prj_fa59bfe830f3e36a2cf7a8a5704f649e/images/products/talk_theme_cards.png"
+    },
+    {
+      "sku": "kirameki_photo_ticket",
+      "productId": "kirameki_photo_ticket",
+      "name": "きらめきフォトチケット",
+      "displayName": "きらめきフォトチケット",
+      "description": "記念撮影をもっと楽しくするフォト演出用チケット。集合写真や思い出作りにどうぞ。",
+      "category": "other",
+      "enabled": true,
+      "price": 400,
+      "priceLabel": "400pt",
+      "soldOut": false,
+      "minimumLevel": 0,
+      "maximumLevel": 4,
+      "trackStock": false,
+      "stock": 0,
+      "capacity": 0,
+      "quantity": 1,
+      "sortOrder": 5,
+      "imageUrl": "https://potyolove.github.io/ebk_starlightlounge_world/EBK/projects/prj_fa59bfe830f3e36a2cf7a8a5704f649e/images/products/kirameki_photo_ticket.png",
+      "iconUrl": "https://potyolove.github.io/ebk_starlightlounge_world/EBK/projects/prj_fa59bfe830f3e36a2cf7a8a5704f649e/images/products/kirameki_photo_ticket.png"
+    }
+  ],
+  "inventory": [
+    {
+      "productId": "luminous_soda",
+      "stock": 0,
+      "capacity": 0,
+      "lowStockThreshold": 0,
+      "enabled": false
+    },
+    {
+      "productId": "midnight_latte",
+      "stock": 0,
+      "capacity": 0,
+      "lowStockThreshold": 0,
+      "enabled": false
+    },
+    {
+      "productId": "starlight_parfait",
+      "stock": 0,
+      "capacity": 0,
+      "lowStockThreshold": 0,
+      "enabled": false
+    },
+    {
+      "productId": "night_terrace_sand",
+      "stock": 0,
+      "capacity": 0,
+      "lowStockThreshold": 0,
+      "enabled": false
+    },
+    {
+      "productId": "talk_theme_cards",
+      "stock": 0,
+      "capacity": 0,
+      "lowStockThreshold": 0,
+      "enabled": false
+    },
+    {
+      "productId": "kirameki_photo_ticket",
+      "stock": 0,
+      "capacity": 0,
+      "lowStockThreshold": 0,
+      "enabled": false
+    }
+  ],
+  "guideTitle": "EBK Lounge Guide",
+  "games": [
+    {
+      "enabled": true,
+      "id": "first_visit",
+      "title": "はじめての楽しみ方",
+      "minimumLevel": 0,
+      "maximumLevel": 4
+    },
+    {
+      "enabled": true,
+      "id": "photo_guide",
+      "title": "写真撮影を楽しもう",
+      "minimumLevel": 0,
+      "maximumLevel": 4
+    }
+  ],
+  "guidePages": [
+    {
+      "enabled": true,
+      "gameIndex": 0,
+      "title": "はじめての楽しみ方",
+      "body": "1. プロフィールを確認・設定する\n2. 接客希望や過ごし方を選ぶ\n3. 気になる席やスタッフを選ぶ\n4. ゆっくり会話や雰囲気を楽しむ\n5. 困った時はスタッフを呼ぶ\n\n無理に会話を続けなくても大丈夫。自分のペースでゆったりお楽しみください。",
+      "directImage": "",
+      "imageUrl": "https://potyolove.github.io/ebk_starlightlounge_world/EBK/projects/prj_fa59bfe830f3e36a2cf7a8a5704f649e/images/guides/welcome.png"
+    },
+    {
+      "enabled": true,
+      "gameIndex": 1,
+      "title": "写真撮影を楽しもう",
+      "body": "1. 撮影許可設定を確認する\n2. 撮影場所を決める\n3. 名札表示や撮影表示を調整する\n4. Camera Jackやロゴ表示を使う\n5. 集合写真や記念撮影を行う\n\n撮影前に周囲の方の許可を確認すると、より安心して楽しめます。",
+      "directImage": "",
+      "imageUrl": "https://potyolove.github.io/ebk_starlightlounge_world/EBK/projects/prj_fa59bfe830f3e36a2cf7a8a5704f649e/images/guides/photo.png"
+    }
+  ]
+}

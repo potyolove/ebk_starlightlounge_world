@@ -1,0 +1,138 @@
+{
+  "protocol": "EventBasicKit.SlidePosterManifest",
+  "schemaVersion": 1,
+  "boards": [
+    {
+      "boardId": "sample-posters",
+      "enabled": true,
+      "title": "FAX紙送り / サンプルポスター",
+      "autoPlay": true,
+      "transition": "paper",
+      "displaySeconds": 6,
+      "transitionSeconds": 1.2,
+      "stripCount": 3,
+      "stripDelaySeconds": 0.18,
+      "direction": "up",
+      "showControls": true,
+      "presentationOnly": false,
+      "order": [
+        0,
+        1
+      ]
+    },
+    {
+      "boardId": "sample-portraits",
+      "enabled": true,
+      "title": "Fade / サンプル画像",
+      "autoPlay": true,
+      "transition": "fade",
+      "displaySeconds": 8,
+      "transitionSeconds": 0.8,
+      "stripCount": 4,
+      "stripDelaySeconds": 0.12,
+      "direction": "left",
+      "showControls": true,
+      "presentationOnly": false,
+      "order": [
+        0,
+        1,
+        2
+      ]
+    }
+  ],
+  "displayCatalog": {
+    "schemaVersion": 1,
+    "boards": [
+      {
+        "boardId": "sample-posters",
+        "kind": "slide",
+        "title": "FAX紙送り / サンプルポスター",
+        "enabled": true,
+        "sourceKind": "posterGallery",
+        "images": [
+          {
+            "index": 0,
+            "title": "Moonlit Book Cafe",
+            "imagePath": "images/posters/main/slot0.png",
+            "imageUrl": "",
+            "enabled": true
+          },
+          {
+            "index": 1,
+            "title": "Sunday Tea Room",
+            "imagePath": "images/posters/main/slot1.png",
+            "imageUrl": "",
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "boardId": "sample-portraits",
+        "kind": "slide",
+        "title": "Fade / サンプル画像",
+        "enabled": true,
+        "sourceKind": "localImages",
+        "images": [
+          {
+            "index": 0,
+            "title": "Astra",
+            "imagePath": "images/portraits/owner/slot0.png",
+            "imageUrl": "",
+            "enabled": true
+          },
+          {
+            "index": 1,
+            "title": "Mio",
+            "imagePath": "images/portraits/staff/slot0.png",
+            "imageUrl": "",
+            "enabled": true
+          },
+          {
+            "index": 2,
+            "title": "Ren",
+            "imagePath": "images/portraits/castleader/slot0.png",
+            "imageUrl": "",
+            "enabled": true
+          },
+          {
+            "index": 3,
+            "title": "Ciel",
+            "imagePath": "images/portraits/uppercast/slot0.png",
+            "imageUrl": "",
+            "enabled": true
+          },
+          {
+            "index": 4,
+            "title": "Noa",
+            "imagePath": "images/portraits/operator/slot0.png",
+            "imageUrl": "",
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "boardId": "world-poster-gallery",
+        "kind": "click",
+        "title": "相互ポスター（クリック切替）",
+        "enabled": true,
+        "sourceKind": "posterGallery",
+        "images": [
+          {
+            "index": 0,
+            "title": "Moonlit Book Cafe",
+            "imagePath": "images/posters/main/slot0.png",
+            "imageUrl": "",
+            "enabled": true
+          },
+          {
+            "index": 1,
+            "title": "Sunday Tea Room",
+            "imagePath": "images/posters/main/slot1.png",
+            "imageUrl": "",
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  }
+}
