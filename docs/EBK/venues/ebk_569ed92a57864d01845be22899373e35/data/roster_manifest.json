@@ -439,6 +439,64 @@
         "Starlight Lounge"
       ],
       "vrcName": "Ciel"
+    },
+    {
+      "accessLevel": 4,
+      "birthdayBadgeEnabled": true,
+      "birthdayMMDD": "09-16",
+      "category": "Owner",
+      "enabled": true,
+      "hasPermission": true,
+      "images": {
+        "icon": {
+          "crop": {
+            "height": 0.6,
+            "width": 0.6,
+            "x": 0.2,
+            "y": 0.36
+          },
+          "source": "portraitCrop",
+          "url": ""
+        },
+        "portrait": {
+          "crop": {
+            "height": 0.5,
+            "width": 0.5,
+            "x": 0.25,
+            "y": 0.5
+          },
+          "framing": "bust",
+          "url": ""
+        },
+        "profile": {
+          "crop": {
+            "height": 0.8,
+            "width": 0.8,
+            "x": 0.1,
+            "y": 0.16
+          },
+          "source": "portraitCrop",
+          "url": ""
+        },
+        "standee": {
+          "crop": {
+            "height": 1,
+            "width": 1,
+            "x": 0,
+            "y": 0
+          },
+          "source": "portrait",
+          "url": ""
+        }
+      },
+      "name": "ポチョLOVE",
+      "portraitUrl": "",
+      "roleType": "owner",
+      "showArmband": true,
+      "showName": true,
+      "showPortrait": true,
+      "slot": 1,
+      "spawnKey": "staff_room"
     }
   ],
   "posterTextEnabled": true,
