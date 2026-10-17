@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "alphaMode": "auto",
+  "pagesBaseUrl": "https://potyolove.github.io/ebk_starlightlounge_world/EBK/projects/prj_fa59bfe830f3e36a2cf7a8a5704f649e",
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "albums": [
+    {
+      "id": "sample-lounge",
+      "name": "サンプルラウンジ",
+      "enabled": true,
+      "displaySeconds": 8,
+      "transition": "fade",
+      "imageCount": 3,
+      "imageUrl": "https://potyolove.github.io/ebk_starlightlounge_world/EBK/projects/prj_fa59bfe830f3e36a2cf7a8a5704f649e/media/room-slides/サンプルラウンジ/001.png"
+    },
+    {
+      "id": "sample-menu",
+      "name": "サンプルメニュー",
+      "enabled": true,
+      "displaySeconds": 6,
+      "transition": "paper",
+      "imageCount": 2,
+      "imageUrl": "https://potyolove.github.io/ebk_starlightlounge_world/EBK/projects/prj_fa59bfe830f3e36a2cf7a8a5704f649e/media/room-slides/サンプルメニュー/001.png"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "title": "EBK OPS サンプル営業予定",
+  "startAt": "2026-10-16T20:00:00+09:00",
+  "endAt": "2026-10-16T21:30:00+09:00",
+  "startTime": "20:00",
+  "durationMinutes": 90,
+  "weekday": 5,
+  "weekOfMonth": 3,
+  "dates": [
+    "2026-10-16",
+    "2026-10-23"
+  ],
+  "message": "OPS編集画面の予定サンプルです",
+  "schedules": [
+    {
+      "name": "通常営業",
+      "enabled": true,
+      "weekday": 5,
+      "weekOfMonth": 3,
+      "startTime": "20:00",
+      "durationMinutes": 90
+    }
+  ],
+  "exceptions": [
+    {
+      "date": "2026-10-30",
+      "name": "特別営業",
+      "startTime": "21:00",
+      "cancelled": false
+    },
+    {
+      "date": "2026-11-06",
+      "name": "休業",
+      "startTime": "20:00",
+      "cancelled": true
+    }
+  ]
+}

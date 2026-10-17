@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "format": "ebk-videoroster-frame-map-v1",
+  "fps": 30,
+  "framesPerPortrait": 3,
+  "sampleFrame": 1,
+  "entries": [
+    {
+      "name": "Astra",
+      "category": "Owner",
+      "slot": 0,
+      "frame": 1,
+      "portraitUrl": "https://potyolove.github.io/ebk_starlightlounge_world/EBK/projects/prj_fa59bfe830f3e36a2cf7a8a5704f649e/images/portraits/owner/slot0.png"
+    },
+    {
+      "name": "Noa",
+      "category": "Operator",
+      "slot": 0,
+      "frame": 4,
+      "portraitUrl": "https://potyolove.github.io/ebk_starlightlounge_world/EBK/projects/prj_fa59bfe830f3e36a2cf7a8a5704f649e/images/portraits/operator/slot0.png"
+    },
+    {
+      "name": "Mio",
+      "category": "Staff",
+      "slot": 0,
+      "frame": 7,
+      "portraitUrl": "https://potyolove.github.io/ebk_starlightlounge_world/EBK/projects/prj_fa59bfe830f3e36a2cf7a8a5704f649e/images/portraits/staff/slot0.png"
+    },
+    {
+      "name": "Ren",
+      "category": "CastLeader",
+      "slot": 0,
+      "frame": 10,
+      "portraitUrl": "https://potyolove.github.io/ebk_starlightlounge_world/EBK/projects/prj_fa59bfe830f3e36a2cf7a8a5704f649e/images/portraits/castleader/slot0.png"
+    },
+    {
+      "name": "Ciel",
+      "category": "UpperCast",
+      "slot": 0,
+      "frame": 13,
+      "portraitUrl": "https://potyolove.github.io/ebk_starlightlounge_world/EBK/projects/prj_fa59bfe830f3e36a2cf7a8a5704f649e/images/portraits/uppercast/slot0.png"
+    }
+  ]
+}
