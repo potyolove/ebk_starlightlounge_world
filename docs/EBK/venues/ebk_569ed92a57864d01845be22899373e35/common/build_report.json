@@ -18,13 +18,7 @@
     "de7b96ca79346e626c17d64443413500e112c24cb3503c07d77cac368b65b983",
     "db0c19c32ebd4cc2bd6c44b72b1143b487e704332f12bad2fab763bbe7d2da59"
   ],
-  "ignoredPortraitUrls": [
-    {
-      "key": "member|Owner|1",
-      "configuredUrl": "https://potyolove.github.io/ebk_starlightlounge_world/EBK/projects/prj_fa59bfe830f3e36a2cf7a8a5704f649e/docs/EBK/projects/prj_fa59bfe830f3e36a2cf7a8a5704f649e/images/portraits/owner/slot1.png",
-      "resolvedUrl": "https://potyolove.github.io/ebk_starlightlounge_world/EBK/projects/prj_fa59bfe830f3e36a2cf7a8a5704f649e/images/portraits/owner/slot1.png"
-    }
-  ],
+  "ignoredPortraitUrls": [],
   "generation": "07ffa390caa549263e2333a240e1ef76",
   "videoSha256": "30f66cc9b915ddfe7c16cf50fa66874f9f9b5dc49c99533318773d8b8455c6aa"
 }
