@@ -1,0 +1,4 @@
+1|clubcard|generation|0|generation|1|1|0|0|frames=3|sampleFrame=1|sample=0.033333|bad=0
+4|clubcard|sheet|ebk-sample|sheet://ebk-sample|1|1|0|0|frames=3|sampleFrame=1|sample=0.133333|bad=0
+7|clubcard|back|0|https://potyolove.github.io/ebk_starlightlounge_world/EBK/projects/prj_fa59bfe830f3e36a2cf7a8a5704f649e/images/clubcards/common/cardback.png|1|1|0|0|frames=3|sampleFrame=1|sample=0.233333|bad=0
+10|clubcard|package|0|https://potyolove.github.io/ebk_starlightlounge_world/EBK/projects/prj_fa59bfe830f3e36a2cf7a8a5704f649e/images/clubcards/common/package.png|1|1|0|0|frames=3|sampleFrame=1|sample=0.333333|bad=0

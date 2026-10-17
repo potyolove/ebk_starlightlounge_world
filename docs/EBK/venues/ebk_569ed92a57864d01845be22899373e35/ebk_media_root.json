@@ -4,24 +4,29 @@
   "modules": [
     {
       "id": "common",
-      "manifestPath": "data/roster_manifest.json",
-      "format": "ebk-roster-v1"
+      "manifestPath": "common/manifest.json",
+      "videoPath": "common/roster_ae66ef96f5a80ec0d42d665c771c3bb2.mp4",
+      "format": "ebk-roster-v1",
+      "generation": "ae66ef96f5a80ec0d42d665c771c3bb2"
     },
     {
       "id": "clubcards",
       "manifestPath": "ebk-clubcards/manifest.json",
       "videoPath": "ebk-clubcards/cards.mp4",
-      "format": "ebk-clubcards-v2"
-    },
-    {
-      "id": "themes",
-      "manifestPath": "themes/theme_catalog.json",
-      "format": "ebk-theme-catalog-v1"
+      "format": "ebk-clubcards-v2",
+      "generation": "bd11fb82204cfb7ba2e3dcc4ecd8321f"
     },
     {
       "id": "roomMedia",
       "manifestPath": "ebk-room-media/manifest.json",
-      "format": "ebk-room-media-v1"
+      "format": "ebk-room-media-v1",
+      "generation": "03f97e5a6ff8767cb3e47c59dc308b12"
+    },
+    {
+      "id": "themes",
+      "manifestPath": "themes/theme_catalog.json",
+      "format": "ebk-theme-catalog-v1",
+      "generation": "217d590b6ad5ed0fe3cc24e18028b362"
     }
   ]
 }

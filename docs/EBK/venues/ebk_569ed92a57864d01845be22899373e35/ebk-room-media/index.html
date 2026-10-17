@@ -1,0 +1,25 @@
+<!doctype html><html lang="ja"><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>EBK スライドアルバム</title><style>
+body{font:16px system-ui,sans-serif;max-width:1080px;margin:40px auto;padding:0 20px;background:#f6f7fa;color:#182334}
+table{width:100%;border-collapse:collapse;background:white}th,td{padding:16px;text-align:left;border-bottom:1px solid #ddd}
+input{box-sizing:border-box;width:100%;padding:10px;margin-bottom:8px}button{padding:8px 14px;cursor:pointer}
+</style><h1>EBK スライドアルバム</h1>
+<p>リンクをコピーして、部屋別メディアボードのURL欄へ貼り付けて読み込みます。<br>
+対応版EBKはスライド方式（1枚3フレーム・30fps）へ自動で切り替わります。</p>
+<table><thead><tr><th>アルバム</th><th>枚数</th><th>メディアボード用リンク</th></tr></thead><tbody>
+<tr><th>Starlight</th><td>1</td><td><input aria-label="StarlightのスライドURL" readonly value="https://potyolove.github.io/ebk_starlightlounge_world/EBK/projects/prj_fa59bfe830f3e36a2cf7a8a5704f649e/ebk-room-media/videos/Starlight_b38fd4a81877457be349864ddf552e65.mp4?ebk-slides=3x30&amp;ebk-alpha=dual-matte-sbs-srgb-v1"><button type="button" data-url="https://potyolove.github.io/ebk_starlightlounge_world/EBK/projects/prj_fa59bfe830f3e36a2cf7a8a5704f649e/ebk-room-media/videos/Starlight_b38fd4a81877457be349864ddf552e65.mp4?ebk-slides=3x30&amp;ebk-alpha=dual-matte-sbs-srgb-v1">リンクをコピー</button> <a href="https://potyolove.github.io/ebk_starlightlounge_world/EBK/projects/prj_fa59bfe830f3e36a2cf7a8a5704f649e/ebk-room-media/videos/Starlight_b38fd4a81877457be349864ddf552e65.mp4" download>MP4</a></td></tr>
+<tr><th>サンプル</th><td>0</td><td>画像待ち</td></tr>
+<tr><th>サンプルメニュー</th><td>2</td><td><input aria-label="サンプルメニューのスライドURL" readonly value="https://potyolove.github.io/ebk_starlightlounge_world/EBK/projects/prj_fa59bfe830f3e36a2cf7a8a5704f649e/ebk-room-media/videos/%E3%82%B5%E3%83%B3%E3%83%97%E3%83%AB%E3%83%A1%E3%83%8B%E3%83%A5%E3%83%BC_9ef16c64e2365d289e16cba0439c910f.mp4?ebk-slides=3x30"><button type="button" data-url="https://potyolove.github.io/ebk_starlightlounge_world/EBK/projects/prj_fa59bfe830f3e36a2cf7a8a5704f649e/ebk-room-media/videos/%E3%82%B5%E3%83%B3%E3%83%97%E3%83%AB%E3%83%A1%E3%83%8B%E3%83%A5%E3%83%BC_9ef16c64e2365d289e16cba0439c910f.mp4?ebk-slides=3x30">リンクをコピー</button> <a href="https://potyolove.github.io/ebk_starlightlounge_world/EBK/projects/prj_fa59bfe830f3e36a2cf7a8a5704f649e/ebk-room-media/videos/%E3%82%B5%E3%83%B3%E3%83%97%E3%83%AB%E3%83%A1%E3%83%8B%E3%83%A5%E3%83%BC_9ef16c64e2365d289e16cba0439c910f.mp4" download>MP4</a></td></tr>
+<tr><th>サンプルラウンジ</th><td>3</td><td><input aria-label="サンプルラウンジのスライドURL" readonly value="https://potyolove.github.io/ebk_starlightlounge_world/EBK/projects/prj_fa59bfe830f3e36a2cf7a8a5704f649e/ebk-room-media/videos/%E3%82%B5%E3%83%B3%E3%83%97%E3%83%AB%E3%83%A9%E3%82%A6%E3%83%B3%E3%82%B8_3bb84d9980c15184ed2ca7469c50c4db.mp4?ebk-slides=3x30&amp;ebk-alpha=dual-matte-sbs-srgb-v1"><button type="button" data-url="https://potyolove.github.io/ebk_starlightlounge_world/EBK/projects/prj_fa59bfe830f3e36a2cf7a8a5704f649e/ebk-room-media/videos/%E3%82%B5%E3%83%B3%E3%83%97%E3%83%AB%E3%83%A9%E3%82%A6%E3%83%B3%E3%82%B8_3bb84d9980c15184ed2ca7469c50c4db.mp4?ebk-slides=3x30&amp;ebk-alpha=dual-matte-sbs-srgb-v1">リンクをコピー</button> <a href="https://potyolove.github.io/ebk_starlightlounge_world/EBK/projects/prj_fa59bfe830f3e36a2cf7a8a5704f649e/ebk-room-media/videos/%E3%82%B5%E3%83%B3%E3%83%97%E3%83%AB%E3%83%A9%E3%82%A6%E3%83%B3%E3%82%B8_3bb84d9980c15184ed2ca7469c50c4db.mp4" download>MP4</a></td></tr></tbody></table><p id="message" role="status"></p>
+<p>画像の更新後は動画生成と公開の完了を待ち、同じURLを読み込み直してください。</p>
+<script>
+document.querySelectorAll('button[data-url]').forEach(button => {
+ button.addEventListener('click', async () => {
+  const message = document.getElementById('message');
+  try { await navigator.clipboard.writeText(button.dataset.url); message.textContent = 'リンクをコピーしました。'; }
+  catch (_) { const input=button.parentElement.querySelector('input'); input.focus(); input.select();
+   message.textContent = 'URLを選択しました。コピー操作をしてください。'; }
+ });
+});
+</script></html>

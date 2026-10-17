@@ -512,15 +512,31 @@
       "slot": 2,
       "text": "集合写真を撮影します。案内に沿ってお集まりください。",
       "title": "集合写真"
+    },
+    {
+      "category": "EventPoster",
+      "slot": 0,
+      "enabled": true
+    },
+    {
+      "category": "EventPoster",
+      "slot": 1,
+      "enabled": true
     }
   ],
   "schemaVersion": 2,
   "videoRoster": {
-    "enabled": false,
+    "enabled": true,
+    "status": "ready",
+    "generation": "ae66ef96f5a80ec0d42d665c771c3bb2",
+    "format": "ebk-roster-v1",
     "fps": 30,
-    "frameMapUrl": "https://potyolove.github.io/ebk_starlightlounge_world/EBK/projects/prj_fa59bfe830f3e36a2cf7a8a5704f649e/data/roster_frame_map.json",
-    "framesPerPortrait": 3,
+    "framesPerEntry": 3,
     "sampleFrame": 1,
-    "videoUrl": "https://potyolove.github.io/ebk_starlightlounge_world/EBK/projects/prj_fa59bfe830f3e36a2cf7a8a5704f649e/media/generated/roster.mp4"
+    "generationMarkerFrame": 1,
+    "frameCount": 45,
+    "videoUrl": "https://potyolove.github.io/ebk_starlightlounge_world/EBK/projects/prj_fa59bfe830f3e36a2cf7a8a5704f649e/common/roster_ae66ef96f5a80ec0d42d665c771c3bb2.mp4",
+    "frameMapUrl": "https://potyolove.github.io/ebk_starlightlounge_world/EBK/projects/prj_fa59bfe830f3e36a2cf7a8a5704f649e/common/frame_map_ae66ef96f5a80ec0d42d665c771c3bb2.txt",
+    "sha256": "fb14454068484ac6f9a96e0bcbb212dc9f0fd4d61d7dea3c9813e12739481f8f"
   }
 }

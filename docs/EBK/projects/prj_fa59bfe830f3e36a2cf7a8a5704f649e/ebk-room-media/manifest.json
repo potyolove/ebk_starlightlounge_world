@@ -1,0 +1,143 @@
+{
+  "schemaVersion": 1,
+  "format": "ebk-room-media-v1",
+  "generation": "03f97e5a6ff8767cb3e47c59dc308b12",
+  "albums": [
+    {
+      "name": "Starlight",
+      "imageCount": 1,
+      "fps": 30,
+      "framesPerImage": 3,
+      "sampleFrame": 1,
+      "videoUrl": "https://potyolove.github.io/ebk_starlightlounge_world/EBK/projects/prj_fa59bfe830f3e36a2cf7a8a5704f649e/ebk-room-media/videos/Starlight_b38fd4a81877457be349864ddf552e65.mp4",
+      "slideUrl": "https://potyolove.github.io/ebk_starlightlounge_world/EBK/projects/prj_fa59bfe830f3e36a2cf7a8a5704f649e/ebk-room-media/videos/Starlight_b38fd4a81877457be349864ddf552e65.mp4?ebk-slides=3x30&ebk-alpha=dual-matte-sbs-srgb-v1",
+      "images": [
+        {
+          "file": "001.png",
+          "sourceBlobSha": "abfe8be54a9e905cdfb4d8df2d1b2203668d6fa3",
+          "sampleFrame": 1,
+          "sampleTimeSeconds": 0.03333333333333333,
+          "sourceWidth": 480,
+          "sourceHeight": 465,
+          "aspect": 1.032258064516129,
+          "fit": "stretch"
+        }
+      ],
+      "format": "ebk-dual-matte-sbs-srgb-v1",
+      "alphaMode": "dual-matte-sbs-srgb-v1",
+      "logicalWidth": 1920,
+      "logicalHeight": 1080,
+      "encodedWidth": 3840,
+      "encodedHeight": 1080,
+      "generation": "b38fd4a81877457be349864ddf552e65",
+      "frameCount": 3,
+      "sha256": "2a0505abdeef297c050949039b5c8cfce30583fc0df6f384ae4dd3cd310c5043"
+    },
+    {
+      "name": "サンプル",
+      "imageCount": 0,
+      "fps": 30,
+      "framesPerImage": 3,
+      "sampleFrame": 1,
+      "videoUrl": "",
+      "slideUrl": "",
+      "images": [],
+      "format": "ebk-room-slides-rgb-v1",
+      "alphaMode": "opaque",
+      "logicalWidth": 1920,
+      "logicalHeight": 1080,
+      "encodedWidth": 1920,
+      "encodedHeight": 1080
+    },
+    {
+      "name": "サンプルメニュー",
+      "imageCount": 2,
+      "fps": 30,
+      "framesPerImage": 3,
+      "sampleFrame": 1,
+      "videoUrl": "https://potyolove.github.io/ebk_starlightlounge_world/EBK/projects/prj_fa59bfe830f3e36a2cf7a8a5704f649e/ebk-room-media/videos/%E3%82%B5%E3%83%B3%E3%83%97%E3%83%AB%E3%83%A1%E3%83%8B%E3%83%A5%E3%83%BC_9ef16c64e2365d289e16cba0439c910f.mp4",
+      "slideUrl": "https://potyolove.github.io/ebk_starlightlounge_world/EBK/projects/prj_fa59bfe830f3e36a2cf7a8a5704f649e/ebk-room-media/videos/%E3%82%B5%E3%83%B3%E3%83%97%E3%83%AB%E3%83%A1%E3%83%8B%E3%83%A5%E3%83%BC_9ef16c64e2365d289e16cba0439c910f.mp4?ebk-slides=3x30",
+      "images": [
+        {
+          "file": "001.png",
+          "sourceBlobSha": "cb02827d4a9d7c6038a713bbc9b6e3556e9c00f4",
+          "sampleFrame": 1,
+          "sampleTimeSeconds": 0.03333333333333333,
+          "sourceWidth": 341,
+          "sourceHeight": 512,
+          "aspect": 0.666015625,
+          "fit": "stretch"
+        },
+        {
+          "file": "002.png",
+          "sourceBlobSha": "9bb7dae1c34675332a7c06c4b5f9e5c000ce51ee",
+          "sampleFrame": 4,
+          "sampleTimeSeconds": 0.13333333333333333,
+          "sourceWidth": 341,
+          "sourceHeight": 512,
+          "aspect": 0.666015625,
+          "fit": "stretch"
+        }
+      ],
+      "format": "ebk-room-slides-rgb-v1",
+      "alphaMode": "opaque",
+      "logicalWidth": 1920,
+      "logicalHeight": 1080,
+      "encodedWidth": 1920,
+      "encodedHeight": 1080,
+      "generation": "9ef16c64e2365d289e16cba0439c910f",
+      "frameCount": 6,
+      "sha256": "e098b0a738c8315a683237e300b7fac257368d1078ff8ea979b81f3c403de0ed"
+    },
+    {
+      "name": "サンプルラウンジ",
+      "imageCount": 3,
+      "fps": 30,
+      "framesPerImage": 3,
+      "sampleFrame": 1,
+      "videoUrl": "https://potyolove.github.io/ebk_starlightlounge_world/EBK/projects/prj_fa59bfe830f3e36a2cf7a8a5704f649e/ebk-room-media/videos/%E3%82%B5%E3%83%B3%E3%83%97%E3%83%AB%E3%83%A9%E3%82%A6%E3%83%B3%E3%82%B8_3bb84d9980c15184ed2ca7469c50c4db.mp4",
+      "slideUrl": "https://potyolove.github.io/ebk_starlightlounge_world/EBK/projects/prj_fa59bfe830f3e36a2cf7a8a5704f649e/ebk-room-media/videos/%E3%82%B5%E3%83%B3%E3%83%97%E3%83%AB%E3%83%A9%E3%82%A6%E3%83%B3%E3%82%B8_3bb84d9980c15184ed2ca7469c50c4db.mp4?ebk-slides=3x30&ebk-alpha=dual-matte-sbs-srgb-v1",
+      "images": [
+        {
+          "file": "001.png",
+          "sourceBlobSha": "b83f34154affaba67b456fcbc232ac1b068e38c9",
+          "sampleFrame": 1,
+          "sampleTimeSeconds": 0.03333333333333333,
+          "sourceWidth": 512,
+          "sourceHeight": 427,
+          "aspect": 1.199063231850117,
+          "fit": "stretch"
+        },
+        {
+          "file": "002.png",
+          "sourceBlobSha": "151b9384c66e8c7b73c24e2a47672c91ac777681",
+          "sampleFrame": 4,
+          "sampleTimeSeconds": 0.13333333333333333,
+          "sourceWidth": 512,
+          "sourceHeight": 427,
+          "aspect": 1.199063231850117,
+          "fit": "stretch"
+        },
+        {
+          "file": "003.png",
+          "sourceBlobSha": "8cfa00a877ffe20ff9f19a76ce4abca68ef175db",
+          "sampleFrame": 7,
+          "sampleTimeSeconds": 0.23333333333333334,
+          "sourceWidth": 512,
+          "sourceHeight": 512,
+          "aspect": 1.0,
+          "fit": "stretch"
+        }
+      ],
+      "format": "ebk-dual-matte-sbs-srgb-v1",
+      "alphaMode": "dual-matte-sbs-srgb-v1",
+      "logicalWidth": 1920,
+      "logicalHeight": 1080,
+      "encodedWidth": 3840,
+      "encodedHeight": 1080,
+      "generation": "3bb84d9980c15184ed2ca7469c50c4db",
+      "frameCount": 9,
+      "sha256": "7961a39f41a80cbbbe019e183945bd5a92b42674fb2335599ac34745baf800bf"
+    }
+  ]
+}
