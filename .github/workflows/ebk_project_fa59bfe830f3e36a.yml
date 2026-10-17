@@ -8,7 +8,7 @@ on:
       - "docs/EBK/projects/prj_fa59bfe830f3e36a2cf7a8a5704f649e/media/**"
       - "docs/EBK/projects/prj_fa59bfe830f3e36a2cf7a8a5704f649e/themes/**"
       - "docs/EBK/projects/prj_fa59bfe830f3e36a2cf7a8a5704f649e/tools/**"
-      - ".github/workflows/ebk_media_fa59bfe830f3e36a.yml"
+      - ".github/workflows/ebk_project_fa59bfe830f3e36a.yml"
   workflow_dispatch:
 permissions:
   contents: read
@@ -19,6 +19,8 @@ jobs:
   build:
     runs-on: ubuntu-latest
     timeout-minutes: 30
+    env:
+      PYTHONDONTWRITEBYTECODE: "1"
     permissions:
       contents: write
     outputs:
@@ -31,6 +33,8 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
+      - name: Repair duplicated same-project Roster URLs without changing slots
+        run: python "docs/EBK/projects/prj_fa59bfe830f3e36a2cf7a8a5704f649e/tools/repair_roster_project_urls.py" --root "docs/EBK/projects/prj_fa59bfe830f3e36a2cf7a8a5704f649e"
       - name: Install encoders
         run: |
           python -m pip install pillow
@@ -63,7 +67,7 @@ jobs:
                   venue_root=active.parent.parent
                   copied=0
                   for source in source_root.rglob('*'):
-                      if not source.is_file():
+                      if not source.is_file() or '__pycache__' in source.parts:
                           continue
                       relative=source.relative_to(source_root)
                       if relative.as_posix() in {'venue.json','data/active_project.json'}:
@@ -87,7 +91,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           base_sha="$(git rev-parse HEAD)"
-          git add -- "$EBK_MEDIA_ROOT/ebk_media_root.json" "$EBK_MEDIA_ROOT/themes/theme_catalog.json"
+          git add -- "$EBK_MEDIA_ROOT/ebk_media_root.json" "$EBK_MEDIA_ROOT/themes/theme_catalog.json" "$EBK_MEDIA_ROOT/data/roster_manifest.json"
           if [ -d docs/EBK/venues ]; then git add -- docs/EBK/venues; fi
           for group in common ebk-clubcards ebk-room-media; do
             if [ -d "$EBK_MEDIA_ROOT/$group" ]; then git add -- "$EBK_MEDIA_ROOT/$group"; fi
@@ -95,7 +99,7 @@ jobs:
           if ! git diff --cached --quiet; then git commit -m "build: isolated EBK media docs/EBK/projects/prj_fa59bfe830f3e36a2cf7a8a5704f649e"; fi
           for attempt in 1 2 3; do
             git fetch origin "$EBK_BRANCH"
-            if ! git diff --quiet "$base_sha" "origin/$EBK_BRANCH" -- "$EBK_MEDIA_ROOT/data" "$EBK_MEDIA_ROOT/images" "$EBK_MEDIA_ROOT/media" "$EBK_MEDIA_ROOT/themes" "$EBK_MEDIA_ROOT/tools" ".github/workflows/ebk_media_fa59bfe830f3e36a.yml"; then
+            if ! git diff --quiet "$base_sha" "origin/$EBK_BRANCH" -- "$EBK_MEDIA_ROOT/data" "$EBK_MEDIA_ROOT/images" "$EBK_MEDIA_ROOT/media" "$EBK_MEDIA_ROOT/themes" "$EBK_MEDIA_ROOT/tools" ".github/workflows/ebk_project_fa59bfe830f3e36a.yml"; then
               echo "New input detected; a newer build will publish."
               echo "publish=false" >> "$GITHUB_OUTPUT"
               exit 0
@@ -126,6 +130,10 @@ jobs:
       - uses: actions/checkout@v4
         with:
           ref: "main"
+      # Check the repository's actual Pages configuration before uploading.
+      # Never try to elevate GITHUB_TOKEN or mark a missing Pages site successful.
+      - name: Verify existing GitHub Pages configuration
+        uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
           path: docs
