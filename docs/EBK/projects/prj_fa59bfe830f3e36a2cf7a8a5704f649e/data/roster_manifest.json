@@ -160,34 +160,92 @@
   "eventSchedule": {
     "exceptions": [
       {
+        "countAsVisit": true,
+        "countStaffWork": true,
         "date": "2026-10-30",
         "duration": 90,
         "enabled": true,
+        "exportToSheets": true,
+        "kind": "Regular",
+        "sourceId": "ser_4ceb88a3ce8d0c8e23b4e5d81d2bcb58",
         "start": "21:00",
-        "title": "特別営業",
+        "title": "特別サンプル営業",
         "type": "臨時営業"
       },
       {
+        "countAsVisit": true,
+        "countStaffWork": true,
         "date": "2026-11-06",
+        "duration": 100,
+        "enabled": true,
+        "exportToSheets": true,
+        "kind": "Regular",
+        "sourceId": "ser_4ceb88a3ce8d0c8e23b4e5d81d2bcb58",
+        "start": "20:00",
+        "title": "休業サンプル",
+        "type": "休業"
+      },
+      {
+        "countAsVisit": true,
+        "countStaffWork": true,
+        "date": "2026-10-31",
         "duration": 90,
         "enabled": true,
-        "start": "20:00",
-        "title": "休業",
-        "type": "休業"
+        "exportToSheets": true,
+        "kind": "Regular",
+        "sourceId": "evt_b4f8ad1e442c0a4946eced83c55dc5bb",
+        "start": "22:00",
+        "title": "単発サンプル営業",
+        "type": "臨時営業"
       }
     ],
+    "projectId": "prj_fa59bfe830f3e36a2cf7a8a5704f649e",
     "rotationMinutes": 15,
     "rules": [
       {
+        "countAsVisit": true,
+        "countStaffWork": true,
         "duration": 90,
         "enabled": true,
-        "nth": 3,
+        "exportToSheets": true,
+        "kind": "Regular",
+        "nth": 0,
+        "sourceId": "ser_4ceb88a3ce8d0c8e23b4e5d81d2bcb58",
         "start": "20:00",
-        "title": "通常営業",
+        "title": "毎週サンプル営業",
+        "untilDate": "2026-11-01",
         "weekday": 5
+      },
+      {
+        "countAsVisit": true,
+        "countStaffWork": true,
+        "duration": 100,
+        "enabled": true,
+        "exportToSheets": true,
+        "fromDate": "2026-11-01",
+        "kind": "Regular",
+        "nth": 0,
+        "sourceId": "ser_4ceb88a3ce8d0c8e23b4e5d81d2bcb58",
+        "start": "20:30",
+        "title": "冬時間サンプル営業",
+        "weekday": 5
+      },
+      {
+        "countAsVisit": true,
+        "countStaffWork": true,
+        "duration": 60,
+        "enabled": true,
+        "exportToSheets": true,
+        "kind": "Regular",
+        "nth": 1,
+        "sourceId": "ser_820a380e2aff209815e48a21b5726a85",
+        "start": "22:00",
+        "title": "毎月サンプル撮影会",
+        "weekday": 0
       }
     ],
     "schemaVersion": 1,
+    "source": "ebk-project-calendar",
     "utcOffsetHours": 9
   },
   "imageSchemaVersion": 1,
