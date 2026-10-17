@@ -1,0 +1,133 @@
+name: Build isolated EBK media (docs/EBK/projects/prj_fa59bfe830f3e36a2cf7a8a5704f649e)
+on:
+  push:
+    branches: ["main"]
+    paths:
+      - "docs/EBK/projects/prj_fa59bfe830f3e36a2cf7a8a5704f649e/data/**"
+      - "docs/EBK/projects/prj_fa59bfe830f3e36a2cf7a8a5704f649e/images/**"
+      - "docs/EBK/projects/prj_fa59bfe830f3e36a2cf7a8a5704f649e/media/**"
+      - "docs/EBK/projects/prj_fa59bfe830f3e36a2cf7a8a5704f649e/themes/**"
+      - "docs/EBK/projects/prj_fa59bfe830f3e36a2cf7a8a5704f649e/tools/**"
+      - ".github/workflows/ebk_media_fa59bfe830f3e36a.yml"
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: ebk-media-fa59bfe830f3e36a-${{ github.ref }}
+  cancel-in-progress: false
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    permissions:
+      contents: write
+    outputs:
+      publish: ${{ steps.save.outputs.publish }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: "main"
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install encoders
+        run: |
+          python -m pip install pillow
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg
+      - name: Build only the selected folder
+        run: python "docs/EBK/projects/prj_fa59bfe830f3e36a2cf7a8a5704f649e/tools/build_media_root.py" --root "docs/EBK/projects/prj_fa59bfe830f3e36a2cf7a8a5704f649e"
+      - name: Refresh fixed venue projections using this project
+        shell: bash
+        env:
+          EBK_MEDIA_ROOT: "docs/EBK/projects/prj_fa59bfe830f3e36a2cf7a8a5704f649e"
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import json, os, shutil
+          root=os.environ['EBK_MEDIA_ROOT'].strip('/')
+          source_root=Path(root)
+          roster=source_root/'common/manifest.json'
+          if not roster.is_file():
+              roster=source_root/'data/roster_manifest.json'
+          venues=Path('docs/EBK/venues')
+          if source_root.is_dir() and roster.is_file() and venues.is_dir():
+              for active in venues.glob('*/data/active_project.json'):
+                  try:
+                      meta=json.loads(active.read_text(encoding='utf-8-sig'))
+                  except Exception:
+                      continue
+                  if str(meta.get('projectRoot','')).strip('/') != root:
+                      continue
+                  venue_root=active.parent.parent
+                  copied=0
+                  for source in source_root.rglob('*'):
+                      if not source.is_file():
+                          continue
+                      relative=source.relative_to(source_root)
+                      if relative.as_posix() in {'venue.json','data/active_project.json'}:
+                          continue
+                      target=venue_root/relative
+                      target.parent.mkdir(parents=True,exist_ok=True)
+                      shutil.copyfile(source,target)
+                      copied+=1
+                  roster_target=venue_root/'data/roster_manifest.json'
+                  roster_target.parent.mkdir(parents=True,exist_ok=True)
+                  shutil.copyfile(roster,roster_target)
+                  print('updated full venue projection:',venue_root,'files=',copied)
+          PY
+      - name: Commit generated files with input freshness check
+        id: save
+        env:
+          EBK_BRANCH: "main"
+          EBK_MEDIA_ROOT: "docs/EBK/projects/prj_fa59bfe830f3e36a2cf7a8a5704f649e"
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          base_sha="$(git rev-parse HEAD)"
+          git add -- "$EBK_MEDIA_ROOT/ebk_media_root.json" "$EBK_MEDIA_ROOT/themes/theme_catalog.json"
+          if [ -d docs/EBK/venues ]; then git add -- docs/EBK/venues; fi
+          for group in common ebk-clubcards ebk-room-media; do
+            if [ -d "$EBK_MEDIA_ROOT/$group" ]; then git add -- "$EBK_MEDIA_ROOT/$group"; fi
+          done
+          if ! git diff --cached --quiet; then git commit -m "build: isolated EBK media docs/EBK/projects/prj_fa59bfe830f3e36a2cf7a8a5704f649e"; fi
+          for attempt in 1 2 3; do
+            git fetch origin "$EBK_BRANCH"
+            if ! git diff --quiet "$base_sha" "origin/$EBK_BRANCH" -- "$EBK_MEDIA_ROOT/data" "$EBK_MEDIA_ROOT/images" "$EBK_MEDIA_ROOT/media" "$EBK_MEDIA_ROOT/themes" "$EBK_MEDIA_ROOT/tools" ".github/workflows/ebk_media_fa59bfe830f3e36a.yml"; then
+              echo "New input detected; a newer build will publish."
+              echo "publish=false" >> "$GITHUB_OUTPUT"
+              exit 0
+            fi
+            git rebase "origin/$EBK_BRANCH"
+            if git push origin "HEAD:$EBK_BRANCH"; then
+              echo "publish=true" >> "$GITHUB_OUTPUT"
+              exit 0
+            fi
+          done
+          exit 1
+  deploy:
+    needs: build
+    if: needs.build.outputs.publish == 'true'
+    runs-on: ubuntu-latest
+    concurrency:
+      group: pages
+      cancel-in-progress: false
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.publish.outputs.page_url }}
+    steps:
+      # Refresh after acquiring the Pages lock so the legacy site is included.
+      - uses: actions/checkout@v4
+        with:
+          ref: "main"
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs
+      - uses: actions/deploy-pages@v4
+        id: publish

@@ -1,0 +1,52 @@
+name: EBK 登録役職を変更
+on:
+  workflow_dispatch:
+    inputs:
+      member_name:
+        description: VRChat表示名（名簿と完全一致）
+        required: true
+        type: string
+      role_id:
+        description: 登録役職（名前・画像・プロフィールは保持）
+        required: true
+        type: choice
+        options:
+          - 'guest'
+          - 'regular'
+          - 'castLeader'
+          - 'upperCast'
+          - 'downerCast'
+          - 'conditionalCast'
+          - 'staffLeader'
+          - 'staff'
+          - 'switchCast'
+          - 'owner'
+          - 'manager'
+          - 'operator'
+          - 'assistant'
+permissions:
+  contents: write
+concurrency:
+  group: ebk-roster-fa59bfe830f3e36a-${{ github.ref }}
+  cancel-in-progress: false
+jobs:
+  change-role:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }}
+      - name: 選んだ役職だけを反映
+        env:
+          EBK_MEMBER_NAME: ${{ inputs.member_name }}
+          EBK_ROLE_ID: ${{ inputs.role_id }}
+        run: cd "docs/EBK/projects/prj_fa59bfe830f3e36a2cf7a8a5704f649e" && python3 tools/change_member_role.py
+      - name: 保存
+        run: |
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+          git add -- "docs/EBK/projects/prj_fa59bfe830f3e36a2cf7a8a5704f649e/data/roster_manifest.json"
+          if ! git diff --cached --quiet; then
+            git commit -m "Update EBK roster role"
+            git push
+          fi
