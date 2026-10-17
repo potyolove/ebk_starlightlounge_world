@@ -466,7 +466,7 @@
             "y": 0.5
           },
           "framing": "bust",
-          "url": ""
+          "url": "https://potyolove.github.io/ebk_starlightlounge_world/EBK/projects/prj_fa59bfe830f3e36a2cf7a8a5704f649e/docs/EBK/projects/prj_fa59bfe830f3e36a2cf7a8a5704f649e/images/portraits/owner/slot1.png"
         },
         "profile": {
           "crop": {
@@ -490,7 +490,7 @@
         }
       },
       "name": "ポチョLOVE",
-      "portraitUrl": "",
+      "portraitUrl": "https://potyolove.github.io/ebk_starlightlounge_world/EBK/projects/prj_fa59bfe830f3e36a2cf7a8a5704f649e/images/portraits/owner/slot1.png",
       "roleType": "owner",
       "showArmband": true,
       "showName": true,
@@ -586,15 +586,15 @@
   "videoRoster": {
     "enabled": true,
     "status": "ready",
-    "generation": "ae66ef96f5a80ec0d42d665c771c3bb2",
+    "generation": "07ffa390caa549263e2333a240e1ef76",
     "format": "ebk-roster-v1",
     "fps": 30,
     "framesPerEntry": 3,
     "sampleFrame": 1,
     "generationMarkerFrame": 1,
-    "frameCount": 45,
-    "videoUrl": "https://potyolove.github.io/ebk_starlightlounge_world/EBK/projects/prj_fa59bfe830f3e36a2cf7a8a5704f649e/common/roster_ae66ef96f5a80ec0d42d665c771c3bb2.mp4",
-    "frameMapUrl": "https://potyolove.github.io/ebk_starlightlounge_world/EBK/projects/prj_fa59bfe830f3e36a2cf7a8a5704f649e/common/frame_map_ae66ef96f5a80ec0d42d665c771c3bb2.txt",
-    "sha256": "fb14454068484ac6f9a96e0bcbb212dc9f0fd4d61d7dea3c9813e12739481f8f"
+    "frameCount": 48,
+    "videoUrl": "https://potyolove.github.io/ebk_starlightlounge_world/EBK/projects/prj_fa59bfe830f3e36a2cf7a8a5704f649e/common/roster_07ffa390caa549263e2333a240e1ef76.mp4",
+    "frameMapUrl": "https://potyolove.github.io/ebk_starlightlounge_world/EBK/projects/prj_fa59bfe830f3e36a2cf7a8a5704f649e/common/frame_map_07ffa390caa549263e2333a240e1ef76.txt",
+    "sha256": "30f66cc9b915ddfe7c16cf50fa66874f9f9b5dc49c99533318773d8b8455c6aa"
   }
 }
